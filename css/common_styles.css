@@ -39,6 +39,14 @@ h1 {
     font-size: 3.0em;
 }
 
+h2{
+    font-family: 'Arvo', sans-serif;
+    text-shadow: 0 1px #ffffff;
+    font-weight: normal;
+    color: #474747;
+    font-size: 2.0em;
+}
+
 .navbar .brand {
     display: block;
     width: 80px;
