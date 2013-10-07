@@ -72,20 +72,6 @@ var Reports = window.Reports || {};
                     iconUp: 'icon-chevron-sign-down',
                     iconDown: 'icon-chevron-sign-up'
                 });
-                /*$('a[href^="#"]').bind('click.smoothscroll', function (e) {
-                    e.preventDefault();
-
-                    var target = this.hash,
-                        $target = $(target);
-
-                    $('html, body').stop().animate({
-                        'scrollTop': $target.offset().top
-                    }, 900, 'swing', function () {
-                        window.location.hash = target;
-                    });
-                });*/
-
-
 
             });
         };
