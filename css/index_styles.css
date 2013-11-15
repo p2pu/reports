@@ -5,7 +5,10 @@
 .section{
     padding-top: 0;
 }
-
+.index-intro{
+    font-weight: normal;
+    margin-bottom: 40px;
+}
 .report-item {
     position: relative;
     overflow: hidden;
