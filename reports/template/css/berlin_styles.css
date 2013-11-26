@@ -1,0 +1,28 @@
+/********************************************
+ * Berlin report styles
+ *******************************************/
+
+#header {
+    background-image: url('../img/put_here_the_name_of_header_image.format');
+}
+
+.quotesGreen, .quotesYellow, .quotesRed {
+    display: block;
+    background: red;
+    height: 5px;
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+
+.quotesGreen {
+    background: #00c638;
+}
+
+.quotesYellow {
+    background: #ffd800;
+}
+
+.quotesRed {
+    background: #d50000;
+}
+
