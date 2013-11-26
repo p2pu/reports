@@ -6,15 +6,16 @@ with the community. When work we do together at/or with Peer 2 Peer University n
 showcased and reported, this is the right place to put them in.
 
 ## Usage
-1. if you don't have git installed go ahead and install it.
-Reference: https://help.github.com/articles/set-up-git
-
-2. Clone this repository: git@github.com:p2pu/reports.git
-Reference: https://help.github.com/articles/fork-a-repo
-
+1. If you don't have git installed go ahead and install it.
+Reference: https://help.github.com/articles/set-up-git.
+2. Clone this repository: "git@github.com:p2pu/reports.git"
+Reference: https://help.github.com/articles/fork-a-repo.
 3. Once you have a copy of a reports folder on your computer, you can go ahead and make a
-new report. The way to do it is to copy a folder called "[template][1]" and change ["index.html][2]"
+new report. The way to do it is to copy a folder called "[template][1]", rename
+the copied folder accordingly and change ["index.html][2]"
 file accordingly.
+4. While changing your file, you can test your changes by opening file in browser and watch change
+happening in front of your eyes.
 
 ## Tips
 * Insert all of your text to appropriate places (places to insert text and structure the
