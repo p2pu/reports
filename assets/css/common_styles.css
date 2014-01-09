@@ -47,6 +47,14 @@ h2 {
     font-size: 2.0em;
 }
 
+blockquote {
+    font-style : italic;
+    font-family: Times New Roman, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.4em;
+
+}
+
 .navbar .brand {
     display: block;
     width: 80px;
@@ -191,13 +199,15 @@ h2 {
     text-shadow: 0 1px #ffffff;
 }
 
-.quotes p {
+.quotes p, blockquote {
     font-family: 'Times New Roman', serif;
-    text-align: center;
     font-style: italic;
     font-size: 1.15em;
     padding: 0 18px;
     color: #646464;
+}
+.quotes p{
+    text-align: center;
 }
 
 .border-orange {
