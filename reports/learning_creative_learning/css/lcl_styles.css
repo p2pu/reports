@@ -6,6 +6,21 @@
     background-image: url('../img/banner.png');
 }
 
+.header-background {
+    background-color: white;
+    opacity: 0.8;
+    position: absolute;
+    height: 240px;
+    width: 100%;
+    top: 50px;
+}
+
+.header-content {
+    position: relative;
+    z-index: 1000;
+    margin-top: 70px;
+}
+
 .quotesGreen, .quotesYellow, .quotesRed {
     display: block;
     background: red;
