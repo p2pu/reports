@@ -155,7 +155,17 @@ footer .supporters {
 
 
 
-
+@media (max-width: 480px) {
+    .jumbotron{
+        padding-left: 0;
+    }
+    .jumbotron .container{
+        padding-left: 5px;
+    }
+    .subhead{
+        top: 0;
+    }
+}
 
 
 
