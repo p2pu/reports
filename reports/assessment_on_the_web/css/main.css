@@ -57,10 +57,10 @@ h1 {
 }
 .nav>li>a:hover, .nav>li>a:focus{
     background-color: transparent;
+    color: #aaa;
 }
 .jumbotron {
-    padding-top: 0;
-    height: 800px;
+    height: 500px;
     position: relative;
     opacity: 1;
     background: url('../img/internet_map_half.jpg') #E4E4E4 0 0 no-repeat;
@@ -70,6 +70,7 @@ h1 {
     -ms-background-size: contain;
     -o-background-size: contain;
     padding-top: 120px;
+    margin-bottom: 0;
 }
 
 .masthead {
@@ -87,13 +88,16 @@ h1 {
     display: inline-block;
     float: none;
 }
-
-.jumbotron h2 {
+.sub-jumbotron{
+    background: url(../img/bgtexture.png) #E4E4E4 0 0 repeat;
+    height: 200px;
+}
+.sub-jumbotron h2 {
     word-wrap: break-word;
     font-size: 48px;
-    line-height: 72px;
     color: #505050;
     text-align: center;
+    line-height: 150px;
 }
 
 .intro {
