@@ -67,7 +67,7 @@ h1 {
     position: relative;
     opacity: 1;
     background: url('../img/internet_map_half.jpg') #E4E4E4 0 0 no-repeat;
-    background-size: contain;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;
