@@ -92,7 +92,7 @@ h1 {
 }
 
 .sub-jumbotron {
-    background: url(../img/bgtexture.png) #E4E4E4 0 0 repeat;
+    background: url(../img/bgtexture.png) #333333 0 0 repeat;
     height: 300px;
 }
 
@@ -104,7 +104,7 @@ h1 {
 .sub-jumbotron h2 {
     word-wrap: break-word;
     font-size: 48px;
-    color: #505050;
+    color: #dddddd;
     text-align: center;
 }
 
@@ -120,12 +120,15 @@ h1 {
     text-align: center;
 }
 
-.content {
+.content, .content-center {
     display: inline-block;
     float: none;
     text-align: left;
     padding-bottom: 50px;
     font-family: "Linden Hill", serif;
+}
+.content-center{
+    text-align: center;
 }
 
 footer {
