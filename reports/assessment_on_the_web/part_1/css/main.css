@@ -4,7 +4,7 @@
 body {
     color: #5F5F5F;
     line-height: 36px;
-    font-size: 24px;
+    font-size: 18px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     width: 100%;
 }
@@ -125,7 +125,6 @@ h1 {
     float: none;
     text-align: left;
     padding-bottom: 50px;
-    font-family: "Linden Hill", serif;
 }
 .content-center{
     text-align: center;
