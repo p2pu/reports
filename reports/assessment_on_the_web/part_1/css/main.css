@@ -99,7 +99,7 @@ h1 {
 
 .subhead {
     position: relative;
-    top: 100px;
+    top: 50px;
 }
 
 .sub-jumbotron h2 {
@@ -148,6 +148,8 @@ footer {
     padding: 25px 0;
     font-size: 15px;
     line-height: 25px;
+    position: relative;
+    z-index: 2;
 }
 
 footer strong {
