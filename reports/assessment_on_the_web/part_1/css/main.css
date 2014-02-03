@@ -108,6 +108,13 @@ h1 {
     text-align: center;
 }
 
+.sub-jumbotron h3 {
+    color: #ddd;
+    text-align: center;
+    padding: 0 70px;
+    line-height: 35px;
+}
+
 .intro {
     text-align: center;
 }
@@ -126,7 +133,8 @@ h1 {
     text-align: left;
     padding-bottom: 50px;
 }
-.content-center{
+
+.content-center {
     text-align: center;
 }
 
@@ -155,16 +163,16 @@ footer .supporters {
     overflow: hidden;
 }
 
-
-
 @media (max-width: 480px) {
-    .jumbotron{
+    .jumbotron {
         padding-left: 0;
     }
-    .jumbotron .container{
+
+    .jumbotron .container {
         padding-left: 5px;
     }
-    .subhead{
+
+    .subhead {
         top: 0;
     }
 }
