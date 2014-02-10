@@ -1,0 +1,20 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Writer: Vanessa Genarelli
+    Twitter: @mozzdarela
+
+    Developer: Erika Pogorelc
+    Twitter: @erchhy
+
+
+# THANKS
+
+    Founders: The William and Flora Hewlett Foundation
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
