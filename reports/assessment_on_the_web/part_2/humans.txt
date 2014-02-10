@@ -3,8 +3,8 @@
 
 # TEAM
 
-    Writer: Vanessa Genarelli
-    Twitter: @mozzdarela
+    Writer: Vanessa Gennarelli
+    Twitter: @mozzdarella
 
     Developer: Erika Pogorelc
     Twitter: @erchhy
