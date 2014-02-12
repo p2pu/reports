@@ -49,11 +49,20 @@
     text-shadow: none;
 }
 
-.assessment{
+.assessment_1{
     background: url('../../reports/assessment_on_the_web/part_1/img/internet_map_half.jpg') 50% 50% no-repeat;
 
 }
-.assessment h2{
+.assessment_1 h2{
     color: #f5f5f5;
+    text-shadow: none;
+}
+
+.assessment_2{
+    background: url('../../reports/assessment_on_the_web/part_2/img/part2_masthead.jpg') 50% 50% no-repeat;
+}
+
+.assessment_2 h2{
+    color: #000;
     text-shadow: none;
 }
