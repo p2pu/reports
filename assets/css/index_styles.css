@@ -66,3 +66,11 @@
     color: #000;
     text-shadow: none;
 }
+
+.assessment_3{
+    background: url('../../reports/assessment_on_the_web/part_3/img/assesment_part_3.jpg') 50% 50% no-repeat;
+}
+.assessment_3 h2{
+    color: #000;
+    text-shadow: none;
+}
