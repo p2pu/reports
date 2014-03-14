@@ -48,11 +48,36 @@ h2 {
 }
 
 blockquote {
-    font-style : italic;
+    font-style: italic;
     font-family: Times New Roman, sans-serif;
     font-size: 1.2em;
     line-height: 1.4em;
 
+}
+
+.list-type-none {
+    list-style: none;
+}
+
+ul.quotes {
+    margin-left: 0;
+}
+
+ul.quotes p {
+    text-align: left;
+    padding-left: 0;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.first {
+    margin-left: 0;
+}
+
+.last {
+    margin-right: 0;
 }
 
 .navbar .brand {
@@ -206,7 +231,8 @@ blockquote {
     padding: 0 18px;
     color: #646464;
 }
-.quotes p{
+
+.quotes p {
     text-align: center;
 }
 
