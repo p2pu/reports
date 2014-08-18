@@ -6,8 +6,10 @@ title: Play With Your Music
 headline: Play With Your Music
 date: 2011-03-18
 permalink: /play-with-your-music/
-thumbnail: PWYM_banner.jpg
-thumbnail_contrib: Photo by garysan97, CC BY SA 2.0
+thumbnail: thumbnail-pwym.jpg
+thumbnail-contrib: Photo by garysan97, CC BY SA 2.0
+featured-image: bgheader-pwym.jpg
+featured-image-contrib: Feedback by giulia.forsythe, on Flickr
 ---
 * This needs to pe right after the end of front matter of the template, 
 since it is rendering the navigation.
