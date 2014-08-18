@@ -5,7 +5,7 @@ category: reports
 title: MOOC Maker
 headline: How We Made The Mechanical MOOC - Freerange Learning With a Mechanical Guide
 date: 2013-05-20 14:38:55
-permalink: /mooc_maker/
+permalink: /mooc-maker/
 thumbnail: thumbnail-mechmooc.png
 thumbnail-contrib: Mechanical MOOC Cover Photo, CC BY SA
 featured-image: bgheader-mechmooc.png
