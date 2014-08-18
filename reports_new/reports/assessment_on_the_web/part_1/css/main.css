@@ -1,0 +1,198 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+    color: #5F5F5F;
+    line-height: 36px;
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Arvo", Arial, sans-serif;
+}
+
+h1 {
+    line-height: 72px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.navbar {
+    background-image: none !important;
+    position: absolute;
+    top: -1px;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: block;
+    background: url('../img/logo-p2pu-menu.png') no-repeat;
+    width: 130px;
+    height: 45px;
+    padding: 0;
+    margin: 18px 0 17px 0;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.navbar .nav {
+    position: relative;
+    left: 0;
+    display: block;
+    float: left;
+    margin: 19px 10px 0 20px;
+}
+
+.navbar .nav .p2pu-tab {
+    border-left: 1px solid #cccccc;
+    font-size: 20px;
+    line-height: 1px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: transparent;
+    color: #aaa;
+}
+
+.jumbotron {
+    height: 500px;
+    position: relative;
+    opacity: 1;
+    padding-top: 120px;
+    margin-bottom: 0;
+}
+
+.masthead {
+    text-align: center;
+}
+.jumbotron img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.jumbotron h1 {
+    font-size: 45px;
+    line-height: 67px;
+    color: #edeae3;
+    text-align: center;
+    font-weight: bold;
+    background: rgba(5, 199, 180, 0.72);
+    display: inline-block;
+    float: none;
+}
+
+.sub-jumbotron {
+    background: url(../img/bgtexture.png) #333333 0 0 repeat;
+    height: 300px;
+    position: relative;
+    z-index: 2;
+}
+
+.subhead {
+    position: relative;
+    top: 50px;
+}
+
+.sub-jumbotron h2 {
+    word-wrap: break-word;
+    font-size: 48px;
+    color: #dddddd;
+    text-align: center;
+}
+
+.sub-jumbotron h3 {
+    color: #ddd;
+    text-align: center;
+    padding: 0 70px;
+    line-height: 35px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro h4 {
+    line-height: 35px;
+}
+.content-parent{
+    position: relative;
+    z-index: 2;
+    background-color: #ffffff;
+}
+.content-wrapper {
+    text-align: center;
+}
+
+.content, .content-center {
+    display: inline-block;
+    float: none;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.content-center {
+    text-align: center;
+}
+
+footer {
+    background: #EAEAEA;
+    padding: 25px 0;
+    font-size: 15px;
+    line-height: 25px;
+    position: relative;
+    z-index: 2;
+}
+
+footer strong {
+    font-family: "Arvo" Arial sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+footer .supporters {
+    margin-bottom: 14px;
+    background: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 64px;
+    text-align: center;
+    line-height: 64px;
+    overflow: hidden;
+}
+
+@media (max-width: 480px) {
+    .jumbotron {
+        padding-left: 0;
+    }
+
+    .jumbotron .container {
+        padding-left: 5px;
+    }
+
+    .subhead {
+        top: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

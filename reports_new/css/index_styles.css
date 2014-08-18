@@ -1,0 +1,81 @@
+/********************************************
+ * Index report styles
+ *******************************************/
+
+.section{
+    padding-top: 0;
+}
+.index-intro{
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+.report-item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    height: 244px;
+    background-size: cover;
+}
+.report-item-link{
+    display: block;
+}
+.report-item-link:hover{
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+.report-item-link:hover h2{
+    color: #FFFFFF;
+    text-shadow: 0 1px #000000;
+}
+.report-item h2{
+    text-align: center;
+}
+
+
+.berlin{
+    background: url('../../reports/berlin/img/bgheader-berlin.jpg') 50% 50% no-repeat;
+}
+
+.soe{
+    background: url('../../reports/school_of_ed/img/bgheader-schoolofed.jpg') 50% 50% no-repeat;
+}
+
+.mooc{
+    background: url('../../reports/mooc_maker/img/mooc_maker.png') 50% 50% no-repeat;
+}
+.mooc h2{
+    color: #f5f5f5;
+    text-shadow: none;
+}
+
+.assessment_1{
+    background: url('../../reports/assessment_on_the_web/part_1/img/internet_map_half.jpg') 50% 50% no-repeat;
+
+}
+.assessment_1 h2{
+    color: #f5f5f5;
+    text-shadow: none;
+}
+
+.assessment_2{
+    background: url('../../reports/assessment_on_the_web/part_2/img/part2_masthead.jpg') 50% 50% no-repeat;
+}
+
+.assessment_2 h2{
+    color: #000;
+    text-shadow: none;
+}
+
+.assessment_3{
+    background: url('../../reports/assessment_on_the_web/part_3/img/assesment_part_3.jpg') 50% 50% no-repeat;
+}
+.assessment_3 h2{
+    color: #000;
+    text-shadow: none;
+}
+
+.pwym{
+    background: url('../../reports/PWYM/img/PWYM_banner.jpg') 50% 50% no-repeat;
+
+}

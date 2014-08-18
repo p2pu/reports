@@ -1,0 +1,30 @@
+/********************************************
+ * Berlin report styles
+ *******************************************/
+
+#header {
+    background-image: url('../img/PWYM_banner.jpg');
+}
+.navbar-fixed-top .navbar-inner{
+    padding-left: 20px;
+}
+.quotesGreen, .quotesYellow, .quotesRed {
+    display: block;
+    background: red;
+    height: 5px;
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+
+.quotesGreen {
+    background: #00c638;
+}
+
+.quotesYellow {
+    background: #ffd800;
+}
+
+.quotesRed {
+    background: #d50000;
+}
+

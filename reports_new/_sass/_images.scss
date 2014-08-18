@@ -1,0 +1,24 @@
+.markdown {
+	figure {
+		position: relative;
+		float: right;
+		margin: 0 0 20px 20px;
+		border: 1px solid $orange;
+		width: 50%;
+	}
+
+	img{
+		width: 100%;
+	}
+
+	figcaption, .photo-author {
+		position: absolute;
+		bottom: 9px;
+		left: 9px;
+		z-index: 999;
+		background: rgba(0, 0, 0, 0.6);
+		color: #fff;
+		font-size: 0.8em;
+		padding: 3px 8px;
+	}
+}

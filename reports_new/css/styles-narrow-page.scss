@@ -1,0 +1,17 @@
+---
+---
+
+@import "aow_styles/bootstrap.min.css";
+@import "aow_styles/bootstrap-theme.min.css";
+@import "aow_styles/main.css";
+
+@import "variables";
+
+.markdown{
+	figure{
+		img{
+			width: 100%;
+		}
+	}
+}
+@import "footer";

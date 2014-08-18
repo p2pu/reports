@@ -1,0 +1,24 @@
+# Site settings
+title: P2PU Lab Reports
+email: reports@p2pu.org
+description: "Here is what we've learned."
+baseurl: ""
+url: "http://reports.p2pu.org"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+
+collections:
+  reports:
+    output: true
+    permalink: reports/:path/
+
+
+gems:
+  - jekyll-redirect-from
+
+
+sass:
+    sass_dir: _sass

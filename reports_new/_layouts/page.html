@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<header id="header" style="background-image: url('{{ site.baseurl }}/img/content/{{ page.thumbnail }}');">
+	<div class="container relative">
+		<span class="header-logo">P2PU</span>
+
+		<h2>{{ page.headline }}</h2>
+		{% if page.subheading %}
+			<br />
+			<span class="h1-school-sub1">{{ page.subheading }}</span>
+		{% endif %}
+		{% if page.author %}
+			<span class="h1-school-sub2">By {{ page.author }}</span>
+		{% endif %}
+		<span class="header-tag">{{ page.thumbnail_contrib }}</span>
+	</div>
+</header>
+<div class="container markdown">
+{{ content }}
+</div>
+

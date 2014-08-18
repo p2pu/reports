@@ -1,0 +1,374 @@
+---
+---
+
+/********************************************
+ * Common Styles for all reports
+ *******************************************/
+@import "variables";
+
+@mixin headings {
+	h1, h2, h3
+	h4, h5, h6 {
+		@content;
+	}
+}
+
+body {
+	padding-top: 66px;
+	padding-bottom: 0;
+	background-image: url('../img/bgtexture.png');
+	overflow-x: hidden;
+
+	@include headings {
+		font-family: $heading-type;
+		font-weight: normal;
+		color: $dark-grey;
+		text-shadow: 0 1px $white;
+	}
+}
+
+p {
+	font-family: $primary-type;
+	color: $grey;
+	line-height: 160%;
+	font-size: 1.1em;
+	margin: 0 0 20px;
+
+	strong {
+		color: $dark-grey;
+		font-size: 1.1em;
+		font-weight: normal;
+		clear: both;
+		//display: block;
+	}
+}
+
+a, a:hover, a:visited {
+	color: $dark-grey;
+	text-decoration: underline;
+}
+
+h1 {
+	padding: 0 20px;
+	font-size: 3.0em;
+}
+
+h2 {
+	font-size: 2.0em;
+}
+
+blockquote {
+	font-style: italic;
+	font-family: Times New Roman, sans-serif;
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+
+hr {
+	clear: both;
+}
+
+.list-type-none {
+	list-style-type: none;
+}
+
+ul.quotes {
+	margin-left: 0;
+
+	p {
+		text-align: left;
+		padding-left: 0;
+	}
+}
+
+.strong {
+	font-weight: bold;
+}
+
+.first {
+	margin-left: 0;
+}
+
+.last {
+	margin-right: 0;
+}
+
+.navbar {
+	.brand {
+		display: block;
+		width: 80px;
+		height: 24px;
+		background: url('../img/logo-p2pu-menu.png') no-repeat;
+		padding: 0;
+		margin: 17px 0;
+		text-indent: -9999px;
+		overflow: hidden;
+	}
+	.nav {
+		margin: 9px 10px 0 20px;
+		font-family: $heading-type;
+
+		& > .active > a, a:hover, a:focus {
+			color: #555;
+			background-color: #fff;
+			-webkit-box-shadow: none;
+			-moz-box-shadow: none;
+			box-shadow: none;
+		}
+	}
+	.nav > li > a {
+		text-shadow: none !important;
+		font-size: 1.1em
+	}
+}
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.navbar-inverse {
+	.navbar-inner {
+		height: 58px;
+		background: $white;
+		border: none;
+		border-bottom: 2px solid #e4e5e4;
+	}
+	.nav{
+		.active {
+			& > a, a:hover, a:focus {
+				color: #555555;
+				background-color: $white;
+				-webkit-box-shadow: none;
+				box-shadow: none;
+			}
+		}
+
+		& > li > a{
+			&:focus, &:hover {
+				color: #777;
+				background-color: transparent;
+			}
+		}
+	}
+}
+
+.header-logo {
+	display: block;
+	width: 282px;
+	height: 98px;
+	background: url('../img/logo-p2pu-big.png') no-repeat;
+	padding: 0;
+	margin: 40px auto 10px;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+#header {
+	position: relative;
+	background-size: cover;
+	background-position: 50% 30%;
+	text-align: center;
+	height: 534px;
+	.container {
+		height: 100%;
+	}
+	h2 {
+		font-size: 3.0em;
+	}
+}
+
+.header-tag {
+	position: absolute;
+	display: block;
+	background: rgba(0, 0, 0, 0.6);
+	padding: 5px 8px;
+	float: right;
+	color: #fff;
+	bottom: 10px;
+	right: 0;
+
+}
+
+.header-subtitle {
+	font-family: $heading-type;
+	font-weight: normal;
+	color: $dark-grey;
+	line-height: 100%;
+	text-shadow: 0 1px $white;
+	font-size: 26px;
+	clear: both;
+	display: block;
+	margin-bottom: 20px;
+}
+
+blockquote p{
+	font-family: $quote-type;
+	font-style: italic;
+	font-size: 1.15em;
+	padding: 0 18px;
+	color: #646464;
+}
+
+.quotes {
+	p, blockquote {
+		font-family: $quote-type;
+		font-style: italic;
+		font-size: 1.15em;
+		padding: 0 18px;
+		color: #646464;
+	}
+	p {
+		text-align: center;
+	}
+}
+
+.photo-wrap {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 20px;
+	img {
+		width: 100%;
+	}
+}
+
+.photo-title {
+	position: absolute;
+	bottom: 36px;
+	left: 9px;
+	z-index: 999;
+	text-transform: uppercase;
+	background: rgba(0, 0, 0, 0.6);
+	color: $white;
+	font-size: 1.9em;
+	font-weight: 200;
+	padding: 10px 8px;
+	line-height: 95%;
+}
+
+.photo-author {
+	position: absolute;
+	bottom: 9px;
+	left: 9px;
+	z-index: 999;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+	font-size: 0.8em;
+	padding: 3px 8px;
+}
+
+@import "images";
+@import "footer";
+
+/***** Big Orange button *******/
+.bt-report {
+	background: $orange;
+	text-align: center;
+	color: $white !important;
+	display: block;
+	font-size: 18px;
+	text-decoration: none;
+	line-height: 50px;
+	padding: 0 42px;
+	height: 50px;
+	width: 240px;
+
+	&:visited{
+		color: $white;
+	}
+}
+
+.bt-report:hover {
+	background: $orange;
+	color: $white;
+	text-decoration: none;
+}
+
+.relative {
+	position: relative;
+}
+
+h1 {
+	line-height: 100px;
+	margin: 0 0 40px 0;
+	padding: 0;
+	font-family: $heading-type;
+	font-weight: 100 !important;
+	color: $dark-grey;
+	font-size: 2.8em !important;
+	text-shadow: 0 1px $white;
+	text-align: center;
+	clear: both;
+}
+
+h1:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	z-index: -1;
+	background-image: url("../img/bgtexture.png"), url("../img/bgsection-line-top.svg"), url("../img/bgsection-line-bottom.svg"), url("../img/bgsection.jpg");
+	background-position: top left, top left, bottom left, top left;
+	background-repeat: repeat, no-repeat, no-repeat, no-repeat;
+	background-size: auto, cover, cover, cover;
+}
+
+.h1-school {
+	font-size: 34px;
+	margin-bottom: 12px;
+}
+
+.h1-school-sub1, .h1-school-sub2 {
+	font-family: $heading-type;
+	font-weight: normal;
+	color: $dark-grey;
+	line-height: 100%;
+	text-shadow: 0 1px $white;
+	font-size: 26px;
+	clear: both;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.h1-school-sub2 {
+	font-size: 18px;
+}
+
+.border-orange {
+	border: 1px solid $orange;
+}
+
+.border-yellow {
+	border: 1px solid $yellow;
+}
+
+.border-green {
+	border: 1px solid $green;
+}
+
+.border-blue {
+	border: 1px solid $blue;
+}
+
+.quotesGreen, .quotesYellow, .quotesRed {
+	display: block;
+	background: red;
+	height: 5px;
+	overflow: hidden;
+	margin-bottom: 35px;
+}
+
+.quotesGreen {
+	background: #00c638;
+}
+
+.quotesYellow {
+	background: #ffd800;
+}
+
+#markdown-toc {
+	position: absolute;
+	top: -999px
+}

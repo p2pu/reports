@@ -1,0 +1,39 @@
+---
+layout: default_narrow
+---
+
+<div class="jumbotron">
+	<img src="{{ site.baseurl }}/img/content/{{ page.thumbnail }}" alt="header_image" />
+
+	<div class="container">
+		<div class="masthead">
+			<div class="clearfix">
+				<h1 class="col-md-8">{{ page.headline }} <br> {{ page.subheading }}</h1>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="sub-jumbotron">
+	<div class="container">
+		<div class="subhead">
+			<h2>{{ page.intro-heading-copy }}</h2>
+
+			<h3>{{ page.intro-copy }}</h3>
+		</div>
+	</div>
+</div>
+<div class="content-parent">
+	<div class="row">
+		<div class="col-md-12 content-wrapper">
+			<div class="intro col-md-8 content-center">
+
+			</div>
+		</div>
+	</div>
+	<div class="row content-wrapper">
+		<div class="container markdown">
+			<div class="col-md-8 content">{{ content }}</div>
+		</div>
+	</div>
+</div>
+

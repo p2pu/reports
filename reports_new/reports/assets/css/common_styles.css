@@ -1,0 +1,358 @@
+/********************************************
+ * Common Styles for all reports
+ *******************************************/
+
+body {
+    padding-top: 66px;
+    padding-bottom: 0;
+    background-image: url('../img/bgtexture.png');
+    overflow-x: hidden;
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #646464;
+    line-height: 160%;
+    font-size: 1.1em;
+    margin: 0 0 20px;
+}
+
+a, a:hover {
+    color: #474747;
+    text-decoration: underline;
+}
+
+p strong {
+    color: #474747;
+    font-size: 1.1em;
+    font-weight: normal;
+    clear: both;
+    display: block;
+}
+
+h1 {
+    padding: 0 20px;
+    font-family: 'Arvo', sans-serif;
+    font-weight: normal;
+    color: #474747;
+    text-shadow: 0 1px #ffffff;
+    font-size: 3.0em;
+}
+
+h2 {
+    font-family: 'Arvo', sans-serif;
+    text-shadow: 0 1px #ffffff;
+    font-weight: normal;
+    color: #474747;
+    font-size: 2.0em;
+}
+
+blockquote {
+    font-style: italic;
+    font-family: Times New Roman, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.4em;
+
+}
+
+.list-type-none {
+    list-style: none;
+}
+
+ul.quotes {
+    margin-left: 0;
+}
+
+ul.quotes p {
+    text-align: left;
+    padding-left: 0;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.first {
+    margin-left: 0;
+}
+
+.last {
+    margin-right: 0;
+}
+
+.navbar .brand {
+    display: block;
+    width: 80px;
+    height: 24px;
+    background: url('../img/logo-p2pu-menu.png') no-repeat;
+    padding: 0;
+    margin: 17px 0;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.navbar .nav {
+    margin: 9px 10px 0 20px;
+    font-family: 'Arvo', sans-serif;
+}
+
+.navbar .nav > li > a {
+    text-shadow: none !important;
+    font-size: 1.1em
+}
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-inverse .navbar-inner {
+    height: 58px;
+    background: #ffffff;
+    background-color: #ffffff;
+    border: none;
+    border-bottom: 2px solid #e4e5e4;
+}
+
+.container {
+    position: relative;
+}
+
+.colorLine {
+    width: 100%;
+    height: 1px;
+    overflow: hidden;
+}
+
+.yellowLine, .blueLine, .greenLine, .orangeLine {
+    width: 25%;
+    background: #ffbf00;
+    height: 1px;
+    overflow: hidden;
+    float: left;
+}
+
+.blueLine {
+    background: #00c9b5;
+}
+
+.greenLine {
+    background: #b7d500;
+}
+
+.orangeLine {
+    background: #fe7400;
+}
+
+.header-logo {
+    display: block;
+    width: 282px;
+    height: 98px;
+    background: url('../img/logo-p2pu-big.png') no-repeat;
+    padding: 0;
+    margin: 40px auto 10px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+#header {
+    position: relative;
+    background-size: cover;
+    background-position: 50% 30%;
+    text-align: center;
+    height: 534px;
+    margin-bottom: -60px;
+}
+
+#header .container {
+    height: 100%;
+}
+
+.header-tag {
+    position: absolute;
+    display: block;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px 8px;
+    float: right;
+    color: #fff;
+    bottom: 10px;
+    right: 0;
+
+}
+
+.header-subtitle {
+    font-family: 'Arvo', sans-serif;
+    font-weight: normal;
+    color: #474747;
+    line-height: 100%;
+    text-shadow: 0 1px #ffffff;
+    font-size: 26px;
+    clear: both;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin: 0 0 40px;
+    padding-top: 60px;
+}
+
+.sectionFirst {
+    margin-top: 0;
+}
+
+.sectionTexture {
+    background: url('../img/bgsection.jpg');
+    background-size: cover;
+}
+
+.sectionTitle {
+    background-image: url('../img/bgtexture.png');
+    text-align: center;
+    height: 100px;
+}
+
+.sectionTitle h2 {
+    line-height: 100px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo', sans-serif;
+    font-weight: 100;
+    color: #474747;
+    font-size: 2.8em;
+    text-shadow: 0 1px #ffffff;
+}
+
+.quotes p, blockquote {
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 1.15em;
+    padding: 0 18px;
+    color: #646464;
+}
+
+.quotes p {
+    text-align: center;
+}
+
+.border-orange {
+    width: 100%;
+    border: 1px solid #fe7400;
+}
+
+.border-green {
+    width: 100%;
+    border: 1px solid #b7d500;
+}
+
+.border-blue {
+    width: 100%;
+    border: 1px solid #00c9b5;
+}
+
+.border-yellow {
+    width: 100%;
+    border: 1px solid #ffbf00;
+}
+
+.photo-wrap {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.photo-wrap img {
+    width: 100%;
+}
+
+.photo-title {
+    position: absolute;
+    bottom: 36px;
+    left: 9px;
+    z-index: 999;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 1.9em;
+    font-weight: 200;
+    padding: 10px 8px;
+    line-height: 95%;
+}
+
+.photo-author {
+    position: absolute;
+    bottom: 9px;
+    left: 9px;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 0.8em;
+    padding: 3px 8px;
+}
+
+#footer {
+    background: #eaeaea;
+    border-top: 1px solid #d6d6d6;
+    margin-top: 110px;
+    padding: 38px 0;
+}
+
+#footer strong {
+    font-family: 'Arvo', sans-serif;
+    font-weight: normal;
+}
+
+#footer p {
+    color: #474747;
+}
+
+.supporters {
+    margin-bottom: 14px;
+    background: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 64px;
+    text-align: center;
+    line-height: 64px;
+    overflow: hidden;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    color: #555;
+    background-color: #fff;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-inverse .nav > li > a:focus, .navbar-inverse .nav > li > a:hover {
+    color: #777;
+    background-color: transparent;
+}
+
+.ico-cc {
+    margin-bottom: 30px;
+}
+
+/***** Big Orange button *******/
+.bt-report {
+    background: #fe7400;
+    text-align: center;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 42px;
+    height: 50px;
+    width: 240px;
+
+}
+
+.bt-report:hover {
+    background: #e76a00;
+    color: #fff;
+    text-decoration: none;
+}

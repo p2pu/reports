@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div id="index" class="container">
+	<h1>Reports</h1>
+
+	<div class="row">
+		<h4 class="span12 index-intro">
+			Welcome to the P2PU Lab Reports Series. These reports are our way of sharing our experiments,
+			collaborations and best practice with our community and the world. We plan to keep
+			documenting our activities in these reports, as a way of showcasing the work we do and
+			with our partners.
+		</h4>
+	</div>
+
+	<div class="row">
+		<div class="clearfix">
+			{% for report in site.reports %}
+				{% if forloop.counter % 3 %}
+					<hr />
+				{% endif %}
+				{% if report.title %}
+					<a href="{{ report.url }}" class="report-item-link">
+						<div class="span4">
+							<div class="report-item border-orange berlin"
+							     style="background: url('{{ site.baseurl }}/img/content/{{ report.thumbnail }}') 50% 50% no-repeat">
+								<h2>{{ report.title }}</h2>
+								<span class="photo-author">{{ report.thumbnail_contrib }}</span>
+							</div>
+						</div>
+					</a>
+				{% endif %}
+			{% endfor %}
+		</div>
+	</div>
+</div>

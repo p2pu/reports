@@ -1,0 +1,84 @@
+/********************************************
+ * School of Ed report styles
+ *******************************************/
+
+#header {
+    background-image: url('../img/bgheader-schoolofed.jpg');
+}
+
+.h1-school {
+    font-size: 34px;
+    margin-bottom: 12px;
+}
+
+.h1-school-sub1, .h1-school-sub2 {
+    font-family: 'Arvo', sans-serif;
+    font-weight: normal;
+    color: #474747;
+    line-height: 100%;
+    text-shadow: 0 1px #ffffff;
+    font-size: 26px;
+    clear: both;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.h1-school-sub2 {
+    font-size: 18px;
+}
+
+.span6.quotes p {
+    padding: 0 48px;
+}
+
+.photo-wrap {
+    margin-top: 4px;
+}
+
+
+#footer {
+    background: #eaeaea;
+    border-top: 1px solid #d6d6d6;
+    margin-top: 110px;
+    padding: 38px 0;
+}
+
+#footer strong {
+    font-family: 'Arvo', sans-serif;
+    font-weight: normal;
+}
+
+#footer p {
+    color: #474747;
+}
+
+.supporters {
+    margin-bottom: 14px;
+    background: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 64px;
+    text-align: center;
+    line-height: 64px;
+    overflow: hidden;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+    color: #555;
+    background-color: #fff;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-inverse .nav > li > a:focus, .navbar-inverse .nav > li > a:hover {
+    color: #777;
+    background-color: transparent;
+}
+
+.ico-cc {
+    margin-bottom: 30px;
+}
+
+
