@@ -15,8 +15,9 @@ featured-image-contrib: Feedback by giulia.forsythe, on Flickr
 
 #Introduction
 
-*This work was originally posted on [Educating Learning Models](http://modernlearners.com/rethinking-assessment-supporting-diversity/)
-website*  
+*This piece originally appeared in the online magazine 
+[Educating Modern Learners](http://modernlearners.com/rethinking-assessment-supporting-diversity/) 
+in May 2014*  
 
 
 
