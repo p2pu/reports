@@ -7,7 +7,10 @@ headline: "Assessment on the Web:"
 subheading: Part 2
 date: 2014-01-21
 permalink: /assessment-on-the-web/part-2/
-thumbnail: bgheader-aow-part2.jpg
+thumbnail: thumbnail-aow-part2.jpg
+thumbnail-contrib: CC BY SA
+featured-image: bgheader-aow-part2.jpg
+featured-image-contrib: CC BY SA
 intro-heading-copy: "A framework for learning on the web."
 intro-copy: "A series of conversations about the current state and future of learning online. Brought to you by the folks at Peer 2 Peer University."
 ---
