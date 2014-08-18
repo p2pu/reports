@@ -5,6 +5,7 @@ category: reports
 title: Rethinking Assessment, Supporting Diversity
 headline: Rethinking Assessment, Supporting Diversity
 date: 2013-01-20
+author: Vanessa Gennarelli
 permalink: /rethinking-assessment/
 thumbnail: thumbnail-rasd.jpg
 thumbnail-contrib: Feedback by giulia.forsythe, on Flickr
@@ -14,12 +15,20 @@ featured-image-contrib: Feedback by giulia.forsythe, on Flickr
 
 #Introduction
 
-**Despite all the promises of the World Wide Web as a platform for online learning, 
+*This work was originally posted on [Educating Learning Models](http://modernlearners.com/rethinking-assessment-supporting-diversity/)
+website*  
+
+
+
+>Despite all the promises of the World Wide Web as a platform for online learning, 
 there are still many questions about whether or not we are building learning tools and learning 
 communities that welcome and support a diversity of ideas and people. How do stereotypes affect 
 the ways in which technologies are developed and implemented? Here, 
 P2PU Learning Lead Vanessa Gennarelli argues that we must take what we know about gender and 
-performance in order to design assessments that open rather than close opportunities.**
+performance in order to design assessments that open rather than close opportunities.
+
+> Audrey Watters  
+
 
 ![Girl meets computer, CC BY SA](/img/content/rasd/girl_on_computer.jpg "Girl meets computer, CC BY SA")
 
