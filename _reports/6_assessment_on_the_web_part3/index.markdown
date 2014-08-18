@@ -1,4 +1,5 @@
 ---
+state: published
 layout: page_narrow
 category: reports
 title: "Assessment on the Web" 

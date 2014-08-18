@@ -1,4 +1,5 @@
 ---
+state: published
 layout: page
 category: reports
 title: School of Ed

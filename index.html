@@ -19,13 +19,13 @@ layout: default
 				{% if forloop.counter % 3 %}
 					<hr />
 				{% endif %}
-				{% if report.title %}
+				{% if report.state and report.state == 'published' %}
 					<a href="{{ report.url }}" class="report-item-link">
 						<div class="span4">
 							<div class="report-item border-orange berlin"
-							     style="background: url('{{ site.baseurl }}/img/content/{{ report.thumbnail }}') 50% 50% no-repeat">
+							     style="background: url('{{ site.baseurl }}/img/content/thumbnails/{{ report.thumbnail }}') 50% 50% no-repeat">
 								<h2>{{ report.title }}</h2>
-								<span class="photo-author">{{ report.thumbnail_contrib }}</span>
+								<span class="photo-author">{{ report.thumbnail-contrib }}</span>
 							</div>
 						</div>
 					</a>
