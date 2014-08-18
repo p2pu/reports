@@ -7,8 +7,10 @@ headline: "Assessment on the Web:"
 subheading: Part 1
 date: 2014-01-20
 permalink: /assessment-on-the-web/part-1/
-thumbnail: bgheader-aow-part1.jpg
-thumbnail_contrib: "Created by Matt Britt using data from the OPTE project, CC BY"
+thumbnail: thumbnail-aow-part1.jpg
+thumbnail-contrib: "Created by Matt Britt using data from the OPTE project, CC BY"
+featured-image: bgheader-aow-part1.jpg
+featured-image-contrib: Created by Matt Britt using data from the OPTE project, CC BY
 intro-heading-copy: "What if learning looked like the web?"
 intro-copy: "A series of conversations about the current state and future of learning online. Brought to you by the folks at Peer 2 Peer University."
 ---
