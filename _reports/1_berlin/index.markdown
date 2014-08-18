@@ -6,8 +6,10 @@ title: Berlin
 headline: Guide to Running a Pop-Up Office
 date: 2013-01-20
 permalink: /popup-office/
-thumbnail: bgheader-berlin.jpg
-thumbnail_contrib: Sight of the Berliner Dom by João Menezes, CC BY SA
+thumbnail: thumbnail-berlin.jpg
+thumbnail-contrib: Sight of the Berliner Dom by João Menezes, CC BY SA
+featured-image: bgheader-berlin.jpg
+featured-image-contrib: Sight of the Berliner Dom by João Menezes, CC BY SA
 ---
 * This needs to pe right after the end of front matter of the template, 
 since it is rendering the navigation.
