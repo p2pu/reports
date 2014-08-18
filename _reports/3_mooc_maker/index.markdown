@@ -6,8 +6,10 @@ title: MOOC Maker
 headline: How We Made The Mechanical MOOC - Freerange Learning With a Mechanical Guide
 date: 2013-05-20 14:38:55
 permalink: /mooc_maker/
-thumbnail: bgheader-mechmooc.png
-thumbnail_contrib: Mechanical MOOC Cover Photo, CC BY SA
+thumbnail: thumbnail-mechmooc.png
+thumbnail-contrib: Mechanical MOOC Cover Photo, CC BY SA
+featured-image: bgheader-mechmooc.png
+featured-image-contrib: Mechanical MOOC Cover Photo, CC BY SA
 ---
 * This needs to pe right after the end of front matter of the template, 
 since it is rendering the navigation.
