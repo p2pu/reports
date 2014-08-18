@@ -8,8 +8,10 @@ subheading: An Experiment in Deeper Professional Learning
 author: Karen Fasimpaur
 date: 2011-03-18
 permalink: /school-of-ed/
-thumbnail: bgheader-schoolofed.jpg
-thumbnail_contrib: Pic by Miss Alison Jean Cole, CC BY
+thumbnail: thumbnail-schoolofed.jpg
+thumbnail-contrib: Pic by Miss Alison Jean Cole, CC BY
+featured-image: bgheader-schoolofed.jpg
+featured-image-contrib: Pic by Miss Alison Jean Cole, CC BY
 ---
 * This needs to pe right after the end of front matter of the template, 
 since it is rendering the navigation.
