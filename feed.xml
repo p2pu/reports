@@ -13,8 +13,8 @@ layout: none
             {% if report.state and report.state == 'published' %}
                 <item>
                     <title>
-                        {% if report.subhead %}
-                            {{ report.headline | append: report.subhead | xml_escape }}
+                        {% if report.subheading %}
+                            {{ report.headline | append: report.subheading | xml_escape }}
                         {% else %}
                             {{ report.headline | xml_escape }}
                         {% endif %}
