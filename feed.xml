@@ -13,7 +13,9 @@ layout: none
             {% if report.state and report.state == 'published' %}
                 <item>
                     <title>{{ report.title | xml_escape }}</title>
-                    <description>{{ report.thumbnail | xml_escape }}</description>
+                    <description>
+                        <![CDATA[{{ report.thumbnail | prepend: "/img/content/thumbnails/" |  prepend: site.baseurl | prepend: site.url }}]]>
+                    </description>
                     <pubDate>{{ report.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
                     <link>{{ report.url | prepend: site.baseurl | prepend: site.url }}</link>
                     <guid isPermaLink="true">{{ report.url | prepend: site.baseurl | prepend: site.url }}</guid>
