@@ -12,7 +12,7 @@ layout: none
         {% for report in site.reports limit:20 %}
             {% if report.state and report.state == 'published' %}
                 <item>
-                    <title>{{ report.title | xml_escape }}</title>
+                    <title>{{ report.headline | xml_escape }}</title>
                     <description>
                         {{ report.thumbnail | prepend: "/img/content/thumbnails/" |  prepend: site.baseurl | prepend: site.url }}
                     </description>
