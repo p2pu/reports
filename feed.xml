@@ -9,7 +9,7 @@ layout: none
         <link>{{ site.url }}{{ site.baseurl }}/</link>
         <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self"
                    type="application/rss+xml"/>
-        {% for report in site.reports limit:10 %}
+        {% for report in site.reports limit:20 %}
             {% if report.state and report.state == 'published' %}
                 <item>
                     <title>{{ report.title | xml_escape }}</title>
