@@ -10,6 +10,12 @@ thumbnail: thumbnail-berlin.jpg
 thumbnail-contrib: Sight of the Berliner Dom by João Menezes, CC BY SA
 featured-image: bgheader-berlin.jpg
 featured-image-contrib: Sight of the Berliner Dom by João Menezes, CC BY SA
+excerpt:
+"P2PU has always believed in experimentation, and that the results
+ of our experiments should be shared. One of these areas of 
+ experimentation is our work set-up - we are a totally virtual, 
+ distributed non-profit, with staff and volunteers all over the 
+ world."
 ---
 * This needs to pe right after the end of front matter of the template, 
 since it is rendering the navigation.
