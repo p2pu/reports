@@ -10,10 +10,7 @@ thumbnail: thumbnail-mechmooc.png
 thumbnail-contrib: Mechanical MOOC Cover Photo, CC BY SA
 featured-image: bgheader-mechmooc.png
 featured-image-contrib: Mechanical MOOC Cover Photo, CC BY SA
-description:"In late 2011 there was a rumbling in the air around the open 
-education space... Massive, open, online courses were springing up 
-all over the web. Two distinct types begin to emerge out of the MOOC model - Connectivist MOOCS 
-(or cMOOCS) and Instructivist (or xMOOCS). Both were large-scale online learning experiments, with very different theories of learning behind them. In the open educational field, practitioners, activists and communities of interest were beginning to think about the component parts of cMOOCS and how they might work together, rather than adding to the emerging model of a proliferation of MOOC platforms, many of which seemed to be recreating the same thing repeatedly."
+description:"In late 2011 there was a rumbling in the air around the open education space... Massive, open, online courses were springing up all over the web. Two distinct types begin to emerge out of the MOOC model - Connectivist MOOCS (or cMOOCS) and Instructivist (or xMOOCS). Both were large-scale online learning experiments, with very different theories of learning behind them. In the open educational field, practitioners, activists and communities of interest were beginning to think about the component parts of cMOOCS and how they might work together, rather than adding to the emerging model of a proliferation of MOOC platforms, many of which seemed to be recreating the same thing repeatedly."
 ---
 * This needs to pe right after the end of front matter of the template, 
 since it is rendering the navigation.
