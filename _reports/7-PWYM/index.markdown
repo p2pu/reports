@@ -10,13 +10,7 @@ thumbnail: thumbnail-pwym.jpg
 thumbnail-contrib: Photo by garysan97, CC BY SA 2.0
 featured-image: bgheader-pwym.jpg
 featured-image-contrib: Feedback by giulia.forsythe, on Flickr
-description:'Play With Your Music is about learning music while playing with music. It’s a 
-hands-on 
-introduction to the creative processes of audio engineers and producers. The first six-week 
-course provided an introduction to critical listening, strategies for learning from recordings, 
-musical uses of audio effects, mixing and remixing. In November 2013, over 5,
-000 participants signed up to participate. They worked together in small “Learning Ensembles” of 
-30-40 people to make their own mixes and remixes, and shared their sounds along the way'
+description: "Play With Your Music is about learning music while playing with music. It’s a hands-on introduction to the creative processes of audio engineers and producers. The first six-week course provided an introduction to critical listening, strategies for learning from recordings, musical uses of audio effects, mixing and remixing."
 ---
 * This needs to pe right after the end of front matter of the template, 
 since it is rendering the navigation.
