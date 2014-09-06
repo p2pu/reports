@@ -13,13 +13,7 @@ featured-image: bgheader-aow-part3.jpg
 featured-image-contrib: CC BY SA
 intro-heading-copy: "Redefining learning on the web."
 intro-copy: "A series of conversations about the current state and future of learning online. Brought to you by the folks at Peer 2 Peer University."
-description:'What we’d like to suggest is an approach that great instructors already know to be true: when a 
-student gives feedback or support to another student, that process deepens their own 
-understanding. In the case of learning to program, students with expertise actually learn more 
-when they work with students who have less expertise
-suggests that the act of critiquing another’s work measurably improves the quality 
-of your own. We can associate peer feedback with dozens of other skills, 
-including communication, conflict resolution, negotiation, and empathy.'
+description:"What we’d like to suggest is an approach that great instructors already know to be true. When a student gives feedback or support to another student, that process deepens their own understanding.'
 ---
 
 #A Different Way to Look at Learning
