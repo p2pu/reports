@@ -13,12 +13,7 @@ featured-image: bgheader-aow-part1.jpg
 featured-image-contrib: Created by Matt Britt using data from the OPTE project, CC BY
 intro-heading-copy: "What if learning looked like the web?"
 intro-copy: "A series of conversations about the current state and future of learning online. Brought to you by the folks at Peer 2 Peer University."
-description:'As a learning community, P2PU is part of a larger ecosystem of online education with different 
-trends, economic models and approaches to recognition and measurement. From where we sit, 
-assessment is the biggest hurdle to innovation in how people learn. It is designed around the 
-way learning was structured in the past. Every learner was expected to master the same body of 
-knowledge, going at the same speed, using the same learning resources and approaches.
-The web has changed the way we learn. The way we recognize learning hasn’t.'
+description: "As a learning community, P2PU is part of a larger ecosystem of online education with different trends, economic models and approaches to recognition and measurement. From where we sit, assessment is the biggest hurdle to innovation in how people learn."
 ---
 
 #The Problem Set
