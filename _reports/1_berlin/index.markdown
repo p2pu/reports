@@ -10,6 +10,16 @@ thumbnail: thumbnail-berlin.jpg
 thumbnail-contrib: Sight of the Berliner Dom by João Menezes, CC BY SA
 featured-image: bgheader-berlin.jpg
 featured-image-contrib: Sight of the Berliner Dom by João Menezes, CC BY SA
+description: 'In 2012, we decided to try running a pop-up office for 1 month. 
+This report documents the set-up, experience and evaluation of the 
+pop-up. Distributed working is becoming increasingly popular, 
+particularly in the non-profit and tech worlds, 
+where staff with expertise may be located in several countries. 
+While this model has many benefits, it also present a unique set of
+ challenges. It is our hope that this report provides useful 
+ guidelines for other virtual organisations who might want to run 
+ short-term offices, and a face-to-face model for other global, 
+ distributed communities.'
 ---
 * This needs to pe right after the end of front matter of the template, 
 since it is rendering the navigation.
