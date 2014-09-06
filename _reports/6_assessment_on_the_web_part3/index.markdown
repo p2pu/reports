@@ -13,7 +13,9 @@ featured-image: bgheader-aow-part3.jpg
 featured-image-contrib: CC BY SA
 intro-heading-copy: "Redefining learning on the web."
 intro-copy: "A series of conversations about the current state and future of learning online. Brought to you by the folks at Peer 2 Peer University."
-description: "What we would like to suggest is an approach that great instructors already know to be true. When a student gives feedback or support to another student, that process deepens their own understanding.'
+#description: "What we would like to suggest is an approach that great instructors already know 
+#to be true. When a student gives feedback or support to another student, 
+#that process deepens their own understanding.'
 ---
 
 #A Different Way to Look at Learning
