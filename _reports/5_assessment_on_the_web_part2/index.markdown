@@ -13,6 +13,9 @@ featured-image: bgheader-aow-part2.jpg
 featured-image-contrib: CC BY SA
 intro-heading-copy: "A framework for learning on the web."
 intro-copy: "A series of conversations about the current state and future of learning online. Brought to you by the folks at Peer 2 Peer University."
+description: 'As learning on the web has evolved and “grown up”, a few innovative trends have emerged. Certain 
+principles tap all the connectedness that the web has to offer. Of the learning communities we 
+consider successful and that we admire, several share the some principles'
 ---
 
 As we [discussed earlier](http://reports.p2pu.org/assessment-on-the-web/part-1/), 

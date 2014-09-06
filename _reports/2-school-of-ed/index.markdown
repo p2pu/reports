@@ -12,6 +12,9 @@ thumbnail: thumbnail-schoolofed.jpg
 thumbnail-contrib: Pic by Miss Alison Jean Cole, CC BY
 featured-image: bgheader-schoolofed.jpg
 featured-image-contrib: Pic by Miss Alison Jean Cole, CC BY
+description: 'Many of the professional development experiences available to 
+K-12 educators are lackluster; at their worst, 
+they can be uninspiring, inauthentic, and ineffective. At it’s best though, professional learning can be stimulating, inquiry-driven, and powerful. It can ignite the lives of both teachers and learners. The question then is, how can teachers be helped to spend more time in these rich experiences? What is it that sets these experiences apart?'
 ---
 * This needs to pe right after the end of front matter of the template, 
 since it is rendering the navigation.
