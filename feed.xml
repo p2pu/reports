@@ -19,7 +19,11 @@ layout: none
                             {{ report.headline | xml_escape }}
                         {% endif %}
                     </title>
-                    <enclosure url="{{ report.thumbnail | prepend: "/img/content/thumbnails/" |  prepend: site.baseurl | prepend: site.url }}" length="6250" type="image/*" />
+                    <media:content url="{{ report.thumbnail | prepend: "/img/content/thumbnails/" |  prepend: site.baseurl | prepend: site.url }}"
+                                   type="image/*"
+                                    medium="image"
+                                    lang="en"/>
+
                     <description>
                         {{ report.thumbnail | prepend: "/img/content/thumbnails/" |  prepend: site.baseurl | prepend: site.url }}
                     </description>
