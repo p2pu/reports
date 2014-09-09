@@ -11,6 +11,7 @@ thumbnail: thumbnail-rasd.jpg
 thumbnail-contrib: Feedback by giulia.forsythe, on Flickr
 featured-image: bgheader-rasd.jpg
 featured-image-contrib: Feedback by giulia.forsythe, on Flickr
+description: "Real-life problems often have dozens of potential solutions. As long as there is one right answer, we’re competing for a scarce amount of knowledge."
 ---
 
 #Introduction
