@@ -1,5 +1,5 @@
 ---
-state: draft
+state: published
 layout: page
 category: reports
 title: Rethinking Assessment, Supporting Diversity
