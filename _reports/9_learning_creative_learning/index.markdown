@@ -10,9 +10,8 @@ permalink: /learning-creative-learning/
 thumbnail: thumbnail-rasd.jpg
 thumbnail-contrib: Feedback by giulia.forsythe, on Flickr
 featured-image: LCL_banner.png
-featured-image: LCL_banner.png
-featured-image-contrib: Feedback by giulia.forsythe, on Flickr
-description: "Real-life problems often have dozens of potential solutions. As long as there is one right answer, we’re competing for a scarce amount of knowledge."
+featured-image-contrib: "Learning creative learning cover photo"
+description: "We decided to create our own. Our goal was to create an online course more aligned with our own educational sensibilities and style. We were not opposed to “massive” but it was not our first priority."
 ---
 
 #Introduction
