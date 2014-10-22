@@ -1,5 +1,5 @@
 ---
-state: published
+state: unpublished
 layout: page
 category: reports
 title: Learning creative learning
@@ -7,8 +7,8 @@ headline: How we tinkered with MOOCs
 date: 2014-10-20
 author: Philipp Schmidt, Mitchel Resnick, and Natalie Rusk
 permalink: /learning-creative-learning/
-thumbnail: thumbnail-rasd.jpg
-thumbnail-contrib: Feedback by giulia.forsythe, on Flickr
+thumbnail: thumbnail-lcl.jpg
+thumbnail-contrib: CC-BY-SA
 featured-image: LCL_banner.png
 featured-image-contrib: "Learning creative learning cover photo"
 description: "We decided to create our own. Our goal was to create an online course more aligned with our own educational sensibilities and style. We were not opposed to “massive” but it was not our first priority."
