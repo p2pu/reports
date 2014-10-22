@@ -366,6 +366,8 @@ A lot of the learning, interactions, and materials from Learning Creative Learni
 
 We would like to thank the Hewlett Foundation for ongoing support of work at P2PU (Grant Number: 2013-8917), the LEGO Foundation for its ongoing support of the Lifelong Kindergarten group at the MIT Media Lab, and Sanjay Sarma of the MIT Office of Digital Learning for his support for our efforts to tinker with MOOCs.
 
+We thank the research assistants that helped develop and organize Learning Creative Learning: Saymindu Dasgupta, Katherine McConnachie, Alisha Panjwani, Grif Peterson, Ricarose Roque, Aya Sakaguchi, and Srishti Sethi.
+
 We also thank Rebecca Kahn for conducting an initial interview with the three of us, nudging us to think of the key lessons we learned, and working on an earlier version of this report. 
 
 
