@@ -1,5 +1,5 @@
 ---
-state: unpublished
+state: published
 layout: page
 category: reports
 title: Learning creative learning
@@ -10,7 +10,6 @@ permalink: /learning-creative-learning/
 thumbnail: thumbnail-lcl.jpg
 thumbnail-contrib: CC-BY-SA
 featured-image: LCL_banner.png
-featured-image-contrib: "Learning creative learning cover photo, CC-BY-SA"
 description: "We decided to create our own. Our goal was to create an online course more aligned with our own educational sensibilities and style. We were not opposed to “massive” but it was not our first priority."
 ---
 
@@ -195,7 +194,7 @@ to see what new practices would emerge if we invited thousands of co-learners
 to experiment with us. 
 
 ![The map of participants in Learning Creative Learning, which was created by participants.
-, CC BY SA](/img/content/lcl/LCL_Gplus.jpg "LCL Global")
+, CC BY SA](/img/content/lcl/LCL_global.jpg "LCL Global")
 
 During the first days of the course, a participant from Italy posted that he 
 would like to see a global map of all the people who had joined. We were 
