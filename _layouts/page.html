@@ -6,10 +6,10 @@ layout: default
 	<div class="container relative">
 		<span class="header-logo">P2PU</span>
 
-		<h2>{{ page.headline }}</h2>
+		<h2>{{ page.headline|markdownify }}</h2>
 		{% if page.subheading %}
 			<br />
-			<span class="h1-school-sub1">{{ page.subheading }}</span>
+			<span class="h1-school-sub1">{{ page.subheading|markdownify }}</span>
 		{% endif %}
 		{% if page.author %}
 			<span class="h1-school-sub2">By {{ page.author }}</span>
