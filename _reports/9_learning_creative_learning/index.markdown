@@ -2,8 +2,8 @@
 state: published
 layout: page
 category: reports
-title: Learning Creative Learning How we tinkered with MOOCs
-headline: Learning Creative Learning":"</br>How we tinkered with MOOCs
+title: "Learning Creative Learning How we tinkered with MOOCs
+headline: Learning Creative Learning: <br/> How we tinkered with MOOCs"
 date: 2014-10-20
 author: Philipp Schmidt, Mitchel Resnick, and Natalie Rusk
 permalink: /learning-creative-learning/
