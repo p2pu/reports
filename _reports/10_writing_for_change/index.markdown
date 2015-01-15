@@ -9,7 +9,7 @@ author: Bekka Khan
 permalink: /writing-for-change/
 thumbnail: thumbnail-lcl.jpg
 thumbnail-contrib: CC-BY-SA
-featured-image: W4C_banner.jpg
+featured-image: W4C_banner.png
 description: "College Unbound and P2PU are two education projects with very different communities and approaches, and very similar philosophies."
 ---
 #Introduction
