@@ -62,7 +62,13 @@ blockquote {
 	font-family: Times New Roman, sans-serif;
 	font-size: 1.2em;
 	line-height: 1.4em;
+
+	p{
+		line-height: 1.6em;
+	}
 }
+
+
 
 hr {
 	clear: both;
@@ -74,6 +80,10 @@ hr {
 
 ul.quotes {
 	margin-left: 0;
+
+	li{
+		line-height: 1.6em;
+	}
 
 	p {
 		text-align: left;
