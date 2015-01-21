@@ -77,12 +77,12 @@ At the time of writing the course is in the final stages, and we’ve asked lear
 
 #Conclusions
 
-We have emerged from Writing for Change having learnt more than we ever thought we would. These are our biggest takeaways, and weâ€™ll be putting them into practice soon:
+We have emerged from Writing for Change having learnt more than we ever thought we would. These are our biggest takeaways, and we'll be putting them into practice soon:
 
-*Unlearning* - it's not enough to expect learners to know how to work openly. A lot of work needs to be done to unlearn the one-way-to-do-things-right model which many learners take with them from school into the online learning space. This binary model is reinforced by many of the ubiquitous online learning tools, which are exclusionary, and keep people out. Helping learners leave that behind is a critical first step. At the same time, any replacement tools and platforms need to be able to both keep unhelpful people out, and be open enough to keep awesome people in. 
+**Unlearning** - it's not enough to expect learners to know how to work openly. A lot of work needs to be done to unlearn the one-way-to-do-things-right model which many learners take with them from school into the online learning space. This binary model is reinforced by many of the ubiquitous online learning tools, which are exclusionary, and keep people out. Helping learners leave that behind is a critical first step. At the same time, any replacement tools and platforms need to be able to both keep unhelpful people out, and be open enough to keep awesome people in. 
 
-*"Open" is  difficult to explain* - Terminology can make things harder sometimes. â€˜Openâ€™ is one of those terms, and for learners who have come out of the binary model, the idea of openness can be tricky. Itâ€™s important to think about when some terminology is useful, and when it might be better to frame things differently. 
+**"Open" is  difficult to explain** - Terminology can make things harder sometimes. "Open" is one of those terms, and for learners who have come out of the binary model, the idea of openness can be tricky. It's important to think about when some terminology is useful, and when it might be better to frame things differently. 
 
-*Online second to the offline* - For non-traditional learners, the community is essential. Not just for learning, but also for daily life. The challenges in designing learning experiments is to find ways to replicate the value of communities in the online space, and make sure that offline communities can transition online with ease. 
+**Online second to the offline** - For non-traditional learners, the community is essential. Not just for learning, but also for daily life. The challenges in designing learning experiments is to find ways to replicate the value of communities in the online space, and make sure that offline communities can transition online with ease. 
 
 
