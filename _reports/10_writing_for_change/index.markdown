@@ -5,7 +5,7 @@ category: reports
 title: Writing 4 Change
 headline: Writing For Change Report
 date: 2015-01-14
-author: Bekka Khan
+author: Bekka Khan, Tyler Benjamin, Gennarelli Vanessa 
 permalink: /writing-for-change/
 thumbnail: thumbnail-lcl.jpg
 thumbnail-contrib: CC-BY-SA
