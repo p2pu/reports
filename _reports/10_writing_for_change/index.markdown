@@ -24,6 +24,17 @@ P2PU, on the other hand, has worked hard over the years to develop online learni
 So when it came to the time for P2PU to run a writing course as one of the deliverables of our grant from the Hewlett Foundation, we thought long and hard about what kind of course we wanted to run, and who we wanted to run it with. Who could a writing course most benefit? What kind of writing would be appropriate for the learners we wanted to attract? 
 Rather than simply provide a space for people who were already writers, it made sense to us to develop a course for people who were thinking about working on their writing skills. We decided to create a writing course that was an online version of a studio - to help folks become better writers in the service of what learners wanted to accomplish.
 
+<div class="row">
+	<div class="span6">
+		<blockquote class="twitter-tweet span6" lang="en"><p>Starting August 15th <a href="https://twitter.com/p2pu">@p2pu</a> and <a href="https://twitter.com/CollegeUnbound">@CollegeUnbound</a> team up to help you Write for Social Change <a href="http://t.co/mrS12m4iI8">http://t.co/mrS12m4iI8</a> <a href="https://twitter.com/hashtag/teachtheweb?src=hash">#teachtheweb</a></p>&mdash; Laura Hilliger (@epilepticrabbit) <a href="https://twitter.com/epilepticrabbit/status/497747845005316096">August 8, 2014</a></blockquote>
+		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div>
+
+	<div class="span6">
+		<blockquote class="twitter-tweet span6" lang="en"><p>Writing for Change: a course for social entrepreneurs &amp; change-makers by <a href="https://twitter.com/p2pu">@p2pu</a> &amp; <a href="https://twitter.com/CollegeUnbound">@CollegeUnbound</a> (+feat. <a href="https://twitter.com/sarahmirk">@sarahmirk</a>!) <a href="http://t.co/WIWrwNgLbo">http://t.co/WIWrwNgLbo</a></p>&mdash; Beatrice Martini (@beatricemartini) <a href="https://twitter.com/beatricemartini/status/495914722123079680">August 3, 2014</a></blockquote>
+		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div>
+</div>
 It seemed like the perfect way for P2PU and College Unbound to finally find a way to work together. 
 
 #Course Design 
@@ -42,7 +53,7 @@ The course was also designed to help both P2PU and College Unbound to test some 
 We ran a pre-course survey, which provided a rich data set to get started with, and helped us develop a sense of the community we were working with. However, as the course evolved, we found that it was the College Unbound crew who formed the core of the cohort, rather than the people who filled in the survey. This implies that there is an evolution of the cohort over the duration of a hybrid online/offline course as some people drop out and others loop back in. 
 It may also mean that for learners who are taking this class for credit toward degrees, the motivation to “do the work” is focussed on aspects which, in their eyes, are directly connected to them earning credit. Completing a survey may not be a priority because taking surveys and surveys themselves are not considered grade-worthy in many of the institutions and systems that learners have known in the past. 
 
-#Lesson # 1: Find What Matters to the Learner
+##Lesson # 1: Find What Matters to the Learner
 
 ![Course participant presenting themselves.
 CC BY SA](/img/content/w4c/aneudy.jpg "Writing 4 Change Course participant presentation with image")
@@ -55,7 +66,7 @@ CC BY SA](/img/content/w4c/Danyelle.jpg "Writing 4 Change Course participant pre
 
 One of the first tasks all learners had to complete was to introduce themselves and share what issues they felt most strongly about. The range of responses and breadth of topics was truly inspiring, with topics covering urban gardening, African American history, using education for social change and the Labour movement. It became clear quite early on that the stakes for many of the participants in this course were very high. We also realised that while many participants were based in far-flung places, for the College Unbound cohort, their sense of community is deeply rooted in place and the people in their immediate community. This was a first for P2PU, and really helped us to think deeply about how to ensure the course was relevant and useful to a less-dispersed community.
  
-#Lesson #2: Break Your Assumptions 
+##Lesson #2: Break Your Assumptions 
 
 We also realised really early on that our assumptions about how learners were using technology were completely wrong. The College Unbound crew were different to anyone we had worked with before, and did not have the same relationship with technology that most P2PU learners had. Tools like Unhangouts, Google docs and forums were simply not as relevant in their lives, and assuming familiarity with these tools risked making learners feel alienated. For time-poor students, the commitment required to tinker with new tools and develop fluency was a curiosity-killer. In order to keep the course relevant, we quickly adapted the technological component of the course, and started using many more face-to-face meetings and even sent Vanessa to Providence to work with the team there. 
 However, the goal of the course, to serve as an avenue toward a bachelor’s degree that is relevant for students seeking an “unbound” college experience meant tapping into the nearly boundless potential of online communities. As a necessity, then, part of that experience had to include exploring online identities. 
@@ -69,13 +80,18 @@ This highlighted the disconnect between those who design educational technology 
 * Hoping that learners will be comfortable enough to abandon the ingrained rhetoric of “the right way vs the wrong way” is a big ask. It may take a while for this to happen. You might lose some people along the way.  
 * At the same time, the freedom of more open tools can be intimidating, and learners often need initial guidance to help them master the space and feel at ease.  
  
-#Lesson #3 Then You Can Start Building
+##Lesson #3 Then You Can Start Building
 
 At the time of writing the course is in the final stages, and we’ve asked learners to take a post-course survey in order to find out what has changed for them since Writing for Change launched. We don’t yet know what we’re going to find, but what we do know is that some of the learners are beginning to have an impact on their community through their writing, which is exactly what we had hoped: 
 
 >“I honestly sat back and struggled with what could be considered an artifact for a non-profit barbershop. So I walked into the space that I used for this project and I saw it and it hit me like a ton of bricks....I thought it be a good idea to showcase some of the haircuts and the different styles me and my partner at the time did. The artifact part would actually not be the pictures of the haircuts but the smiles of the faces on the kids who received these cuts. Creating a space not only where positive conversation can happen but also a place where a community could be built. Instilling with this young men the importance of community and the teaching of dr. martin luther king jr. would do just that.” - Jose Rodriguez, participant.
 
 #Conclusions
+
+<div class="embedded-tweet-center">
+<blockquote class="twitter-tweet" lang="en"><p>This week <a href="https://twitter.com/CollegeUnbound">@CollegeUnbound</a> taught me about accomplishing real social change through community. Thank you. <a href="http://t.co/rsIDpyPBiQ">pic.twitter.com/rsIDpyPBiQ</a></p>&mdash; Vanessa Gennarelli (@mozzadrella) <a href="https://twitter.com/mozzadrella/status/517302094446211072">October 1, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 
 We have emerged from Writing for Change having learnt more than we ever thought we would. These are our biggest takeaways, and we'll be putting them into practice soon:
 

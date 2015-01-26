@@ -383,3 +383,9 @@ h1:before {
 	position: absolute;
 	top: -999px
 }
+
+.embedded-tweet-center{
+	iframe{
+		margin: 10px auto !important;
+	}
+}
