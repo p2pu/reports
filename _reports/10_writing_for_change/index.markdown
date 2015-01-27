@@ -1,11 +1,11 @@
 ---
-state: published
+state: unpublished
 layout: page
 category: reports
 title: Writing 4 Change
 headline: Writing For Change Report
 date: 2015-01-14
-author: Bekka Kahn, Tyler Benjamin, Vanessa Gennarelli
+author: P2PU & College Unbound
 permalink: /writing-for-change/
 thumbnail: thumbnail-w4c.jpg
 thumbnail-contrib: Writing 4 Change Splash Image, CC-BY-SA 
@@ -13,6 +13,8 @@ featured-image: W4C_banner.png
 description: "College Unbound and P2PU are two education projects with very different communities and approaches, and very similar philosophies."
 ---
 #Introduction
+
+_Authored by: Bekka Kahn, Tyler Benjamin, Vanessa Gennarelli_
 
 One of our most exciting collaborative learning experiments in 2014 was a project called Writing For Change. In partnership with College Unbound, we wanted to see what would happen when we tried to replicate the unique stickiness of face-to-face learning in groups. 
 
