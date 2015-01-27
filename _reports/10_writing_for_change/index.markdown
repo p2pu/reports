@@ -1,5 +1,5 @@
 ---
-state: unpublished
+state: published
 layout: page
 category: reports
 title: Writing 4 Change
