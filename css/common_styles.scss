@@ -4,6 +4,7 @@
 /********************************************
  * Common Styles for all reports
  *******************************************/
+@import "//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css";
 @import "variables";
 
 @mixin headings {
@@ -63,12 +64,10 @@ blockquote {
 	font-size: 1.2em;
 	line-height: 1.4em;
 
-	p{
+	p {
 		line-height: 1.6em;
 	}
 }
-
-
 
 hr {
 	clear: both;
@@ -81,7 +80,7 @@ hr {
 ul.quotes {
 	margin-left: 0;
 
-	li{
+	li {
 		line-height: 1.6em;
 	}
 
@@ -145,7 +144,7 @@ ul.quotes {
 		border: none;
 		border-bottom: 2px solid #e4e5e4;
 	}
-	.nav{
+	.nav {
 		.active {
 			& > a, a:hover, a:focus {
 				color: #555555;
@@ -155,7 +154,7 @@ ul.quotes {
 			}
 		}
 
-		& > li > a{
+		& > li > a {
 			&:focus, &:hover {
 				color: #777;
 				background-color: transparent;
@@ -214,7 +213,7 @@ ul.quotes {
 	margin-bottom: 20px;
 }
 
-blockquote p{
+blockquote p {
 	font-family: $quote-type;
 	font-style: italic;
 	font-size: 1.15em;
@@ -261,7 +260,7 @@ blockquote p{
 .photo-author {
 	position: absolute;
 	bottom: 9px;
-	left: 9px;
+	right: 9px;
 	z-index: 999;
 	background: rgba(0, 0, 0, 0.6);
 	color: #fff;
@@ -285,7 +284,7 @@ blockquote p{
 	height: 50px;
 	width: 240px;
 
-	&:visited{
+	&:visited {
 		color: $white;
 	}
 }
@@ -384,8 +383,76 @@ h1:before {
 	top: -999px
 }
 
-.embedded-tweet-center{
-	iframe{
+.embedded-tweet-center {
+	iframe {
 		margin: 10px auto !important;
 	}
+}
+
+
+
+.page-social{
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+}
+
+.page-social-bottom{
+	margin-bottom: 20px;
+}
+
+
+.social {
+    float:left;
+    margin:10px 0 10px -10px;
+		position: absolute;
+		bottom: 0;
+}
+.sharrre{
+  margin:0 0 0 10px;
+  float:left;
+}
+.sharrre .box a:hover{
+  text-decoration:none;
+}
+.sharrre .count {
+	float: right;
+  color:#b2c6cc;
+	text-decoration:none;
+  display:block;
+	padding:2px 5px;
+  font-size:12px;
+  font-weight:bold;
+  line-height:20px;
+  text-align:center;
+  border-radius:0 4px 4px 0;
+  border:1px solid #b2c6cc;
+  background: #fbfbfb; /* Old browsers */
+}
+.sharrre .share {
+  color:#FFFFFF;
+  display:block;
+  font-size:12px;
+  font-weight:bold;
+  line-height:20px;
+  padding:3px 5px;
+  text-align:center;
+  text-decoration:none;
+  border-radius:4px 0 0 4px;
+	float: left;
+}
+[id*="twitter"] .share {
+  background: #26c3eb;
+}
+[id*="facebook"] .share {
+  background: #5582c9;
+}
+[id*="googleplus"] .share {
+  background: #6d6d6d;
+}
+[id*="pinterest"] .share {
+  background: #D11E16;
+}
+[id*="google"] .share {
+  background: #D34836;
 }

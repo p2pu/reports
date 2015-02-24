@@ -4,31 +4,115 @@ layout: default
 <div id="index" class="container">
 	<h1>Reports</h1>
 
-	<div class="row">
+	<div class="row-fluid">
 		<h4 class="span12 index-intro">
 			Welcome to the P2PU Lab Reports Series. These reports are our way of sharing our experiments,
-			collaborations and best practice with our community and the world. We plan to keep
-			documenting our activities in these reports, as a way of showcasing the work we do and
-			with our partners.
+			collaborations and best practice with our community and the world. We plan to keep documenting our
+			activities in these reports, as a way of showcasing the work we do and with our partners.
 		</h4>
 	</div>
 
-	<div class="row" id="reports-list">
-		<div class="clearfix">
-			{% for report in site.reports %}
-				{% if forloop.counter % 3 %}
-					<hr />
-				{% endif %}
+	<div id="reports-list">
+		<div class="clearfix thumbnails">
+			{% assign indx = 0 %}
+			{% for report in site.reports reversed %}
 				{% if report.state and report.state == 'published' %}
-					<a href="{{ report.url }}" class="report-item-link">
-						<div class="span4">
-							<div class="report-item border-orange berlin"
+					{% capture modulo %}{{ indx | modulo:3 }}{% endcapture %}
+					{% if modulo == '0' %}
+						<div class="row-fluid gap">
+					{% endif %}
+						<a href="{{ report.url }}" class="span4 thumbnail report-item-link">
+							<div class="report-item border-orange"
 							     style="background: url('{{ site.baseurl }}/img/content/thumbnails/{{ report.thumbnail }}') 50% 50% no-repeat">
-								<h2>{{ report.title }}</h2>
-								<span class="photo-author">{{ report.thumbnail-contrib }}</span>
+										<span class="photo-author">
+											{{ report.date| date: "%h %Y" }}</span>
 							</div>
-						</div>
-					</a>
+							<div class="caption">
+								<h4 class="title">{{ report.title }}</h4>
+
+								<p>{{ report.description }}</p>
+
+								<div class="social">
+										<div id="twitter{{ report.permalink| replace:'/','-' }}"
+										     data-url="{{ site.url }}{{ report.permalink }}"
+										     data-text="Check out this: {{ report.title }}"
+										     data-title="<i class='fa fa-twitter'></i>">
+										</div>
+										<div id="facebook{{ report.permalink| replace:'/','-' }}"
+										     data-url="{{ site.url }}{{ report.permalink }}"
+										     data-text="Check out this: {{ report.title }}"
+										     data-title="<i class='fa fa-facebook'></i>">
+										</div>
+										<div id="googlePlus{{ report.permalink| replace:'/','-' }}"
+											     data-url="{{ site.url }}{{ report.permalink }}"
+											     data-text="Check out this: {{ report.title }}"
+											     data-title="<i class='fa fa-google-plus'></i>">
+										</div>
+										<div id="pinterest{{ report.permalink| replace:'/','-' }}"
+										     data-url="{{ site.url }}{{ report.permalink }}"
+										     data-text="Check out this: {{ report.title }}"
+										     data-title="<i class='fa fa-pinterest-p'></i>">
+										</div>
+								</div>
+							</div>
+						</a>
+					{% if modulo == '2' or forloop.last and modulo != '2' %}</div>{% endif %}
+					{% assign indx = indx | plus:1 %}
+
+					<script type="text/javascript">
+						document.addEventListener('DOMContentLoaded', function() {
+							$('#twitter{{ report.permalink| replace:'/','-' }}').sharrre({
+								share: {
+									twitter: true
+								},
+								enableHover: false,
+								enableTracking: true,
+								buttons: { twitter: {via: 'p2pu'}},
+								click: function (api, options) {
+									api.simulateClick();
+									api.openPopup('twitter');
+								}
+							});
+
+							$('#facebook{{ report.permalink| replace:'/','-' }}').sharrre({
+								share: {
+									facebook: true
+								},
+								enableHover: false,
+								enableTracking: true,
+								click: function (api, options) {
+									api.simulateClick();
+									api.openPopup('facebook');
+								}
+							});
+
+							$('#googlePlus{{ report.permalink| replace:'/','-' }}').sharrre({
+								share: {
+									googlePlus: true
+								},
+								urlCurl:"",
+								enableHover: false,
+								enableTracking: true,
+								click: function (api, options) {
+									api.simulateClick();
+									api.openPopup('googlePlus');
+								}
+							});
+
+							$('#pinterest{{ report.permalink| replace:'/','-' }}').sharrre({
+								share: {
+									pinterest: true
+								},
+								enableHover: false,
+								enableTracking: true,
+								click: function (api, options) {
+									api.simulateClick();
+									api.openPopup('pinterest');
+								}
+							});
+
+						});
+					</script>
 				{% endif %}
 			{% endfor %}
 		</div>

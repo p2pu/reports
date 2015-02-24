@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<header id="header" style="background-image: url('{{ site.baseurl }}/img/content/{{ page.featured-image }}');">
+<header id="header"
+        style="background-image: url('{{ site.baseurl }}/img/content/{{ page.featured-image }}');">
 	<div class="container relative">
 		<span class="header-logo">P2PU</span>
 
@@ -15,11 +16,105 @@ layout: default
 			<span class="h1-school-sub2">By {{ page.author }}</span>
 		{% endif %}
 		{% if page.featured-image-contrib %}
-		<span class="header-tag">{{ page.featured-image-contrib }}</span>
+			<span class="header-tag">{{ page.featured-image-contrib }}</span>
 		{% endif %}
+		<div class="page-social">
+			<div id="twitter-top"
+			     data-url="{{ site.url }}{{ page.permalink }}"
+			     data-text="Check out this: {{ page.title }}"
+			     data-title="<i class='fa fa-twitter'></i>">
+			</div>
+			<div id="facebook-top"
+			     data-url="{{ site.url }}{{ page.permalink }}"
+			     data-text="Check out this: {{ page.title }}"
+			     data-title="<i class='fa fa-facebook'></i>">
+			</div>
+			<div id="pinterest-top"
+			     data-url="{{ site.url }}{{ page.permalink }}"
+			     data-text="Check out this: {{ page.title }}"
+			     data-title="<i class='fa fa-pinterest-p'></i>">
+			</div>
+			<div id="googlePlus-top"
+			     data-url="{{ site.url }}{{ page.permalink }}"
+			     data-text="Check out this: {{ page.title }}"
+			     data-title="<i class='fa fa-google-plus'></i>">
+			</div>
+		</div>
 	</div>
 </header>
 <div class="container markdown">
-{{ content }}
+	{{ content }}
+
+	<div class="page-social-bottom clearfix">
+		<div id="twitter-bottom"
+		     data-url="{{ site.url }}{{ page.permalink }}"
+		     data-text="Check out this: {{ page.title }}"
+		     data-title="<i class='fa fa-twitter'></i>">
+		</div>
+		<div id="facebook-bottom"
+		     data-url="{{ site.url }}{{ page.permalink }}"
+		     data-text="Check out this: {{ page.title }}"
+		     data-title="<i class='fa fa-facebook'></i>">
+		</div>
+		<div id="pinterest-bottom"
+		     data-url="{{ site.url }}{{ page.permalink }}"
+		     data-text="Check out this: {{ page.title }}"
+		     data-title="<i class='fa fa-pinterest-p'></i>">
+		</div>
+		<div id="googlePlus-bottom"
+		     data-url="{{ site.url }}{{ page.permalink }}"
+		     data-text="Check out this: {{ page.title }}"
+		     data-title="<i class='fa fa-google-plus'></i>">
+		</div>
+	</div>
 </div>
+
+<script type="text/javascript">
+	document.addEventListener('DOMContentLoaded', function () {
+		$('#twitter-top, #twitter-bottom').sharrre({
+			share: {
+				twitter: true
+			},
+			enableHover: false,
+			enableTracking: true,
+			buttons: { twitter: {via: 'p2pu'}},
+			click: function (api, options) {
+				api.simulateClick();
+				api.openPopup('twitter');
+			}
+		});
+		$('#facebook-top, #facebook-bottom').sharrre({
+			share: {
+				facebook: true
+			},
+			enableHover: false,
+			enableTracking: true,
+			click: function (api, options) {
+				api.simulateClick();
+				api.openPopup('facebook');
+			}
+		});
+		$('#pinterest-top, #pinterest-bottom').sharrre({
+			share: {
+				pinterest: true
+			},
+			enableHover: false,
+			click: function (api, options) {
+				api.simulateClick();
+				api.openPopup('pinterest');
+			}
+		});
+		$('#googlePlus-top, #googlePlus-bottom').sharrre({
+			share: {
+				googlePlus: true
+			},
+			enableHover: false,
+			urlCurl:"",
+			click: function (api, options) {
+				api.simulateClick();
+				api.openPopup('googlePlus');
+			}
+		});
+	});
+</script>
 
