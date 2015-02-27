@@ -14,7 +14,7 @@ description: "College Unbound and P2PU are two education projects with very diff
 ---
 #Introduction
 
-_Authored by: Bekka Kahn, Tyler Benjamin, Vanessa Gennarelli_
+_Authored by: Bekka Kahn, Tyler Benjamin, Vanessa Gennarelli and the participants in the College Unbound 2014-2015 W4C course_
 
 One of our most exciting collaborative learning experiments in 2014 was a project called Writing For Change. In partnership with College Unbound, we wanted to see what would happen when we tried to replicate the unique stickiness of face-to-face learning in groups. 
 
