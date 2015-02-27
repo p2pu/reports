@@ -1,0 +1,72 @@
+.p2pu-color-divider-wrap {
+    border-bottom: solid 6px #ff7300;
+}
+.p2pu-color-divider-wrap::before, .p2pu-color-divider-wrap::after {
+    content: "";
+    height: 6px;
+    width: 25%;
+    position: absolute;
+    left: 25%;
+    background: #b7d500;
+}
+.p2pu-color-divider-wrap::before, .p2pu-color-divider-wrap::after {
+    content: "";
+    height: 6px;
+    width: 25%;
+    position: absolute;
+    left: 25%;
+    background: #b7d500;
+}
+.p2pu-color-divider::before, .p2pu-color-divider::after {
+    content: "";
+    height: 6px;
+    width: 25%;
+    position: absolute;
+    left: 50%;
+    background: #05c6b4;
+}
+.p2pu-color-divider::after {
+    left: 75%;
+    background: #ffbc1a;
+}
+.p2pu-panel-wrap {
+    background-color: white;
+
+}
+.p2pu-panel-wrap .panel-contents .connect {
+    width: 25%;
+    float: left;
+}
+.p2pu-panel-wrap .panel-contents .connect-inner {
+     margin-right: 20px;
+}
+.p2pu-panel-wrap .panel-contents .connect li {
+    line-height: 16px;
+}
+.p2pu-panel-wrap .panel-contents .connect hr {
+    margin: 10px 0;
+}
+.p2pu-panel-wrap .panel-contents .connect li a {
+    margin-right: 5px;
+}
+.p2pu-panel-wrap .panel-contents .connect h4 {
+    font-family: 'Arvo', serif;
+    font-weight: inherit;
+    line-height: 22px;
+    color: #515665;
+    text-rendering: optimizelegibility;
+}
+.p2pu-panel-wrap .panel-contents .connect a {
+    font-size: 16px;
+    color: #05c6b4;
+    text-decoration: none;
+}
+
+@media (max-width: 979px){
+    .p2pu-panel-wrap .panel-contents .connect {
+        width: 100%;
+    }
+    .p2pu-panel-wrap .panel-contents .connect-inner {
+         margin-left: 30px;
+    }
+}

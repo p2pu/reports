@@ -1,120 +1,149 @@
 ---
-layout: default
+layout: index
 ---
 <div id="index" class="container">
-	<h1>Reports</h1>
+	<header class="page-header">
+    <h1>Reports</h1>
+  </header>
+	<div class="header">
+	<hr style="margin-bottom: 6px;" />
+		<div class="row">
+			<div class="col-md-9">
+				<div class="row">
+					<div class="pull-left col-md-6">
+						<form id="search-form" class="">
+						<span class="form-wrap">
+							<input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
+						</span>
+						</form>
+					</div>
 
-	<div class="row-fluid">
-		<h4 class="span12 index-intro">
-			Welcome to the P2PU Lab Reports Series. These reports are our way of sharing our experiments,
-			collaborations and best practice with our community and the world. We plan to keep documenting our
-			activities in these reports, as a way of showcasing the work we do and with our partners.
-		</h4>
+					<div id="layout-toggle" class="pull-right hidden-xs hidden-sm ">
+						<a class="grid-view on" href="javascript:void(0);" title="Grid View" data-layout="grid"> <i
+								class="fa fa-th-large"></i> </a> <a class="feed-view" href="javascript:void(0);"
+						                                        title="Feed View" data-layout="feed"> <i
+							class="fa fa-list"></i> </a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
-
-	<div id="reports-list">
-		<div class="clearfix thumbnails">
+	<hr style="margin: 6px 0 0 0;"/>
+	<div class="content col-md-9 first">
+		<div id="tipue_search_content"></div>
+		<div class="clearfix row" id="report-list">
 			{% assign indx = 0 %}
 			{% for report in site.reports reversed %}
 				{% if report.state and report.state == 'published' %}
-					{% capture modulo %}{{ indx | modulo:3 }}{% endcapture %}
-					{% if modulo == '0' %}
-						<div class="row-fluid gap">
-					{% endif %}
-						<a href="{{ report.url }}" class="span4 thumbnail report-item-link">
-							<div class="report-item border-orange"
-							     style="background: url('{{ site.baseurl }}/img/content/thumbnails/{{ report.thumbnail }}') 50% 50% no-repeat">
-										<span class="photo-author">
-											{{ report.date| date: "%h %Y" }}</span>
-							</div>
-							<div class="caption">
-								<h4 class="title">{{ report.title }}</h4>
-
-								<p>{{ report.description }}</p>
-
+						<div class="col-md-4 report">
+							<a href="{{ report.url }}" class="report-image border-orange">
+									<img height="394" width="544"
+									     src="{{ site.baseurl }}/img/content/thumbnails/{{ report.thumbnail }}"
+									     alt="Permanent Link to {{ report.title }}" />
+									<span class="date">{{ report.date|date: "%B %Y" }}</span>
+							</a>
+							<div class="report-caption">
+								<a href="{{ report.url }}" class="title">{{ report.title }}</a>
+								<div class="report-meta hidden">
+									By <strong>{{ report.author }}</strong> <br />
+								</div>
+								<div class="short">
+									<p>{{ report.description|truncatewords:40 }}</p>
+								</div>
+								<div class="long hidden">
+									<p>
+										{{ report.description }}
+									</p>
+								</div>
 								<div class="social">
-										<div id="twitter{{ report.permalink| replace:'/','-' }}"
+									<div id="twitter{{ report.permalink| replace:'/','-' }}"
+									     data-url="{{ site.url }}{{ report.permalink }}"
+									     data-text="Check out this: {{ report.title }}"
+									     data-title="<i class='fa fa-twitter'></i>">
+									</div>
+									<div id="facebook{{ report.permalink| replace:'/','-' }}"
+									     data-url="{{ site.url }}{{ report.permalink }}"
+									     data-text="Check out this: {{ report.title }}"
+									     data-title="<i class='fa fa-facebook'></i>">
+									</div>
+									<div id="googlePlus{{ report.permalink| replace:'/','-' }}"
 										     data-url="{{ site.url }}{{ report.permalink }}"
 										     data-text="Check out this: {{ report.title }}"
-										     data-title="<i class='fa fa-twitter'></i>">
-										</div>
-										<div id="facebook{{ report.permalink| replace:'/','-' }}"
-										     data-url="{{ site.url }}{{ report.permalink }}"
-										     data-text="Check out this: {{ report.title }}"
-										     data-title="<i class='fa fa-facebook'></i>">
-										</div>
-										<div id="googlePlus{{ report.permalink| replace:'/','-' }}"
-											     data-url="{{ site.url }}{{ report.permalink }}"
-											     data-text="Check out this: {{ report.title }}"
-											     data-title="<i class='fa fa-google-plus'></i>">
-										</div>
-										<div id="pinterest{{ report.permalink| replace:'/','-' }}"
-										     data-url="{{ site.url }}{{ report.permalink }}"
-										     data-text="Check out this: {{ report.title }}"
-										     data-title="<i class='fa fa-pinterest-p'></i>">
-										</div>
+										     data-title="<i class='fa fa-google-plus'></i>">
+									</div>
+									<div id="pinterest{{ report.permalink| replace:'/','-' }}"
+									     data-url="{{ site.url }}{{ report.permalink }}"
+									     data-text="Check out this: {{ report.title }}"
+									     data-title="<i class='fa fa-pinterest'></i>">
+									</div>
+									<script type="text/javascript">
+										document.addEventListener('DOMContentLoaded', function () {
+											$('#twitter{{ report.permalink| replace:'/','-' }}').sharrre({
+												share: {
+													twitter: true
+												},
+												enableHover: false,
+												enableTracking: true,
+												buttons: { twitter: {via: 'p2pu'}},
+												click: function (api, options) {
+													api.simulateClick();
+													api.openPopup('twitter');
+												}
+											});
+
+											$('#facebook{{ report.permalink| replace:'/','-' }}').sharrre({
+												share: {
+													facebook: true
+												},
+												enableHover: false,
+												enableTracking: true,
+												click: function (api, options) {
+													api.simulateClick();
+													api.openPopup('facebook');
+												}
+											});
+
+											$('#googlePlus{{ report.permalink| replace:'/','-' }}').sharrre({
+												share: {
+													googlePlus: true
+												},
+												urlCurl: "",
+												enableHover: false,
+												enableTracking: true,
+												click: function (api, options) {
+													api.simulateClick();
+													api.openPopup('googlePlus');
+												}
+											});
+
+											$('#pinterest{{ report.permalink| replace:'/','-' }}').sharrre({
+												share: {
+													pinterest: true
+												},
+												enableHover: false,
+												enableTracking: true,
+												click: function (api, options) {
+													api.simulateClick();
+													api.openPopup('pinterest');
+												}
+											});
+
+										});
+									</script>
 								</div>
 							</div>
-						</a>
-					{% if modulo == '2' or forloop.last and modulo != '2' %}</div>{% endif %}
-					{% assign indx = indx | plus:1 %}
-
-					<script type="text/javascript">
-						document.addEventListener('DOMContentLoaded', function() {
-							$('#twitter{{ report.permalink| replace:'/','-' }}').sharrre({
-								share: {
-									twitter: true
-								},
-								enableHover: false,
-								enableTracking: true,
-								buttons: { twitter: {via: 'p2pu'}},
-								click: function (api, options) {
-									api.simulateClick();
-									api.openPopup('twitter');
-								}
-							});
-
-							$('#facebook{{ report.permalink| replace:'/','-' }}').sharrre({
-								share: {
-									facebook: true
-								},
-								enableHover: false,
-								enableTracking: true,
-								click: function (api, options) {
-									api.simulateClick();
-									api.openPopup('facebook');
-								}
-							});
-
-							$('#googlePlus{{ report.permalink| replace:'/','-' }}').sharrre({
-								share: {
-									googlePlus: true
-								},
-								urlCurl:"",
-								enableHover: false,
-								enableTracking: true,
-								click: function (api, options) {
-									api.simulateClick();
-									api.openPopup('googlePlus');
-								}
-							});
-
-							$('#pinterest{{ report.permalink| replace:'/','-' }}').sharrre({
-								share: {
-									pinterest: true
-								},
-								enableHover: false,
-								enableTracking: true,
-								click: function (api, options) {
-									api.simulateClick();
-									api.openPopup('pinterest');
-								}
-							});
-
-						});
-					</script>
-				{% endif %}
+						</div>
+					{% endif %}
 			{% endfor %}
 		</div>
 	</div>
+	<div class="sidebar col-md-3">
+		<div id="contribute" class="widget">
+        <p>These reports are our way of sharing our experiments, collaborations and best practice with our community and the world. We plan to keep documenting our activities in these reports, as a way of showcasing the work we do and with our partners.
+	        <br />If you have any questions, comments, feedback or just a hello, please give a shout to our
+	        community list.</p>
+        <a href="http://community.p2pu.org" class="btn btn-info">Show me</a>
+    </div>
+	</div>
 </div>
+

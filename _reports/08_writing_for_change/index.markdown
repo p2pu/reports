@@ -4,7 +4,7 @@ layout: page
 category: reports
 title: Writing 4 Change
 headline: Writing For Change Report
-date: 2015-01-14
+date: 2014-11-14
 author: P2PU & College Unbound
 permalink: /writing-for-change/
 thumbnail: thumbnail-w4c.jpg

@@ -1,0 +1,6 @@
+{
+	"title": "{{ report.title }}",
+	"text": "{{ report.content | strip_html | strip_newlines | remove:'"' }}",
+	"tags": "reports",
+	"loc": "{{ site.baseurl }}{{ report.permalink }}"
+}

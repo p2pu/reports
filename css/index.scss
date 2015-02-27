@@ -1,0 +1,216 @@
+---
+---
+@import "p2pustrap/bootstrap";
+@import "search";
+
+hr{
+	border-color: $gray-light;
+}
+.header{
+
+}
+
+@media (min-width: $grid-float-breakpoint) {
+	.content{
+		border-right: 1px solid $gray-light;
+	}
+}
+
+.first{
+	padding-left: 0;
+}
+
+/*** Items **********************************************/
+#layout-toggle{
+	margin-top: 4px;
+
+	.grid-view, .feed-view {
+		font-size: 20px;
+		color: $gray;
+		margin: 0 5px 0 5px;
+
+		&:hover, &:focus{
+			text-decoration: none;
+			color: $brand-primary;
+		}
+
+		&.on{
+			color: $brand-primary
+		}
+	}
+}
+
+.report{
+	display: inline-block;
+	zoom: 1;
+	vertical-align: top;
+	border-bottom: 1px solid $gray-light;
+	font-size: 15px;
+	height: 425px;
+	margin-top: 24px;
+	padding-bottom: 40px;
+
+	.title{
+		display: block;
+		margin: 0 0 11px 0;
+		font-family: $font-family-base;
+		font-size: 15px;
+		font-weight: bold;
+		line-height: 1.8;
+		color: $brand-primary;
+
+		&:hover{
+			text-decoration: none;
+			color: $gray;
+		}
+	}
+
+	.report-image {
+		position: relative;
+		display: block;
+		margin: 0 0 20px;
+		max-height: 140px !important;
+		overflow: hidden !important;
+
+		&:hover {
+			-moz-opacity: 0.8;
+			-khtml-opacity: 0.8;
+			-webkit-opacity: 0.8;
+			opacity: 0.8;
+		}
+
+		img {
+			display: block;
+			height: auto;
+			width: 100%;
+		}
+
+		.date{
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			padding: 5px 10px;
+			background: rgba(0, 0, 0, 0.5);
+			font-size: 13px;
+			font-weight: bold;
+			color: white;
+			font-style: italic;
+		}
+
+	}
+
+	.report-caption {
+		font-size: 13px;
+	}
+
+	.report-links {
+		zoom: 1;
+		bottom: 0;
+		color: #8c8c8c;
+		left: 0;
+		position: absolute;
+		width: 100%;
+	}
+}
+
+.feed-report-list {
+	.report {
+		width: 100%;
+
+		.report-image {
+			height: 100%;
+			display: inline;
+			float: left;
+			max-height: none !important;
+			margin-right: 2.813599062133646%;
+			overflow: visible !important;
+			width: 63.77491207502931%;
+
+			img {
+				height: auto;
+				max-height: 100%;
+				width: 100%;
+			}
+		}
+		.report-caption {
+			display: inline;
+			float: left;
+			width: 30.48065650644783%;
+		}
+	}
+}
+
+.sidebar{
+	padding-top: 24px;
+	font-size: 13px;
+}
+
+
+
+
+/*** Soial Buttons **************************************/
+.page-social{
+	position: absolute;
+	bottom: 10px;
+	right: 0;
+}
+
+.page-social-bottom{
+	margin-bottom: 20px;
+}
+
+
+.social {
+    float:left;
+    margin:10px 0 10px -10px;
+		position: absolute;
+		bottom: 0;
+}
+.sharrre{
+  margin:0 0 0 10px;
+  float:left;
+}
+.sharrre .box a:hover{
+  text-decoration:none;
+}
+.sharrre .count {
+	float: right;
+  color:#b2c6cc;
+	text-decoration:none;
+  display:block;
+	padding:2px 5px;
+  font-size:12px;
+  font-weight:bold;
+  line-height:20px;
+  text-align:center;
+  border-radius:0 4px 4px 0;
+  border:1px solid #b2c6cc;
+  background: #fbfbfb; /* Old browsers */
+}
+.sharrre .share {
+  color:#FFFFFF;
+  display:block;
+  font-size:12px;
+  font-weight:bold;
+  line-height:20px;
+  padding:3px 5px;
+  text-align:center;
+  text-decoration:none;
+  border-radius:4px 0 0 4px;
+	float: left;
+}
+[id*="twitter"] .share {
+  background: #26c3eb;
+}
+[id*="facebook"] .share {
+  background: #5582c9;
+}
+[id*="googleplus"] .share {
+  background: #6d6d6d;
+}
+[id*="pinterest"] .share {
+  background: #D11E16;
+}
+[id*="google"] .share {
+  background: #D34836;
+}

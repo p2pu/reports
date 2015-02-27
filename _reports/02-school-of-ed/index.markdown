@@ -6,7 +6,7 @@ title: School of Ed
 headline: "School of Ed:"
 subheading: An Experiment in Deeper Professional Learning
 author: Karen Fasimpaur
-date: 2011-03-18
+date: 2013-08-18
 permalink: /school-of-ed/
 thumbnail: thumbnail-schoolofed.jpg
 thumbnail-contrib: Pic by Miss Alison Jean Cole, CC BY

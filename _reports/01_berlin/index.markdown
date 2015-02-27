@@ -4,7 +4,8 @@ layout: page
 category: reports
 title: Berlin
 headline: Guide to Running a Pop-Up Office
-date: 2013-01-20
+author: Bekka Kahn
+date: 2013-06-20
 permalink: /popup-office/
 hashtags: popupoffice
 thumbnail: thumbnail-berlin.jpg

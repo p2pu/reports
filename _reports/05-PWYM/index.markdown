@@ -4,7 +4,8 @@ layout: page
 category: reports
 title: Play With Your Music
 headline: Play With Your Music
-date: 2011-03-18
+date: 2014-08-18
+author: Bekka Kahn, Vanessa Gennarelli
 permalink: /play-with-your-music/
 thumbnail: thumbnail-pwym.jpg
 thumbnail-contrib: Photo by garysan97, CC BY SA 2.0
