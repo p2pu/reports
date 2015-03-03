@@ -38,4 +38,9 @@
 		<link href="{{ "feed.xml" | prepend: site.baseurl }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed" />
 
 		<meta name="twitter:widgets:csp" content="on">
+		<meta property="og:title" content="{{ page.headline }}">
+		<meta property="og:site_name" content="Reports from Peer 2 Peer University">
+		<meta property="og:description" content="{{ page.description }}">
+		<meta property="og:url" content="{{ site.baseurl }}{{ page.permalink }}">
+		<meta property="og:image" content="{{ site.baseurl }}/img/content/{{ page.featured-image }}">
 </head>
