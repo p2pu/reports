@@ -19,26 +19,7 @@ layout: default
 			<span class="header-tag">{{ page.featured-image-contrib }}</span>
 		{% endif %}
 		<div class="page-social">
-			<div id="twitter-top"
-			     data-url="{{ site.url }}{{ page.permalink }}"
-			     data-text="Check out this: {{ page.title }}"
-			     data-title="<i class='fa fa-twitter'></i>">
-			</div>
-			<div id="facebook-top"
-			     data-url="{{ site.url }}{{ page.permalink }}"
-			     data-text="Check out this: {{ page.title }}"
-			     data-title="<i class='fa fa-facebook'></i>">
-			</div>
-			<div id="pinterest-top"
-			     data-url="{{ site.url }}{{ page.permalink }}"
-			     data-text="Check out this: {{ page.title }}"
-			     data-title="<i class='fa fa-pinterest-p'></i>">
-			</div>
-			<div id="googlePlus-top"
-			     data-url="{{ site.url }}{{ page.permalink }}"
-			     data-text="Check out this: {{ page.title }}"
-			     data-title="<i class='fa fa-google-plus'></i>">
-			</div>
+			{% include social.html %}
 		</div>
 	</div>
 </header>
@@ -48,32 +29,13 @@ layout: default
 	<hr />
 	<h5>You are invited to share this report</h5>
 	<div class="page-social-bottom clearfix pull-left">
-		<div id="twitter-bottom"
-		     data-url="{{ site.url }}{{ page.permalink }}"
-		     data-text="Check out this: {{ page.title }}"
-		     data-title="<i class='fa fa-twitter'></i>">
-		</div>
-		<div id="facebook-bottom"
-		     data-url="{{ site.url }}{{ page.permalink }}"
-		     data-text="Check out this: {{ page.title }}"
-		     data-title="<i class='fa fa-facebook'></i>">
-		</div>
-		<div id="pinterest-bottom"
-		     data-url="{{ site.url }}{{ page.permalink }}"
-		     data-text="Check out this: {{ page.title }}"
-		     data-title="<i class='fa fa-pinterest-p'></i>">
-		</div>
-		<div id="googlePlus-bottom"
-		     data-url="{{ site.url }}{{ page.permalink }}"
-		     data-text="Check out this: {{ page.title }}"
-		     data-title="<i class='fa fa-google-plus'></i>">
-		</div>
+		{% include social.html %}
 	</div>
 </div>
 
 <script type="text/javascript">
 	document.addEventListener('DOMContentLoaded', function () {
-		$('#twitter-top, #twitter-bottom').sharrre({
+		$('.twitter').sharrre({
 			share: {
 				twitter: true
 			},
@@ -85,7 +47,7 @@ layout: default
 				api.openPopup('twitter');
 			}
 		});
-		$('#facebook-top, #facebook-bottom').sharrre({
+		$('.facebook').sharrre({
 			share: {
 				facebook: true
 			},
@@ -96,9 +58,15 @@ layout: default
 				api.openPopup('facebook');
 			}
 		});
-		$('#pinterest-top, #pinterest-bottom').sharrre({
+		$('.pinterest').sharrre({
 			share: {
 				pinterest: true
+			},
+			buttons: {
+				pinterest: {
+					media: 'http://reports.p2pu.org/img/content/{{ page.featured-image }}',
+					description: '{{ page.description }}'
+				}
 			},
 			enableHover: false,
 			click: function (api, options) {
@@ -106,7 +74,7 @@ layout: default
 				api.openPopup('pinterest');
 			}
 		});
-		$('#googlePlus-top, #googlePlus-bottom').sharrre({
+		$('.googlePlus').sharrre({
 			share: {
 				googlePlus: true
 			},
@@ -115,6 +83,17 @@ layout: default
 			click: function (api, options) {
 				api.simulateClick();
 				api.openPopup('googlePlus');
+			}
+		});
+		$('.linkedin').sharrre({
+			share: {
+				linkedin: true
+			},
+			enableHover: false,
+			urlCurl:"",
+			click: function (api, options) {
+				api.simulateClick();
+				api.openPopup('linkedin');
 			}
 		});
 	});

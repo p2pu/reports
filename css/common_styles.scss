@@ -441,18 +441,21 @@ h1:before {
   border-radius:4px 0 0 4px;
 	float: left;
 }
-[id*="twitter"] .share {
+[class*="twitter"] .share {
   background: #26c3eb;
 }
-[id*="facebook"] .share {
+[class*="facebook"] .share {
   background: #5582c9;
 }
-[id*="googleplus"] .share {
+[class*="googleplus"] .share {
   background: #6d6d6d;
 }
-[id*="pinterest"] .share {
+[class*="pinterest"] .share {
   background: #D11E16;
 }
-[id*="google"] .share {
+[class*="google"] .share {
   background: #D34836;
+}
+[class*="linkedin"] .share {
+  background: #1583BA;
 }
