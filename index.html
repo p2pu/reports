@@ -36,12 +36,12 @@ layout: index
 			{% for report in site.reports reversed %}
 				{% if report.state and report.state == 'published' %}
 						<div class="col-md-4 report">
-							<a href="{{ report.url }}" class="report-image border-orange">
+							<div class="">
 									<img height="394" width="544"
 									     src="{{ site.baseurl }}/img/content/thumbnails/{{ report.thumbnail }}"
 									     alt="Permanent Link to {{ report.title }}" />
 									<span class="date">{{ report.date|date: "%B %Y" }}</span>
-							</a>
+							</div>
 							<div class="report-caption">
 								<a href="{{ report.url }}" class="title">{{ report.title }}</a>
 								<div class="report-meta hidden">
